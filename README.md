@@ -15,14 +15,14 @@ Interests:
 Data Science and Analytics,
 User Experience Design,
 ICT for Education
-
+<!---
 ## Projects
 
 | Title | Description |
 | --- | -- |
 | [**Rethinking the Mobile Learning Experience: A User Experience Design Project**](https://drive.google.com/file/d/0BxvZ58uMG1BIUFhHSUdlMFZ3QWM/view) | Smartphones and mobile applications are more ubiquitous than ever but leveraging mobile to improve access to quality education remains a serious challenge. One of the strategies seen to achieve our universal education goals is creating a compelling mobile learning experience for users. To this end, the author designed a conceptual mobile learning app using mobile UX principles to improve user engagement. This paper describes the design process and specifications that could foresee the development of a mobile learning system on Android or iOS platform. |
 | [**Copy Editing and Headline Writing Hangout On Air**](https://youtu.be/t0ShpCvFcQo) | An introduction to copy editing and headline writing for high school students. |
-
+--->
 Reach me @kgvalc on 
 [Twitter](https://twitter.com/kgvalc),
 [Medium](https://medium.com/@kgvalc),
