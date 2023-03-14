@@ -15,10 +15,3 @@ Interests:
 Data Science and Analytics,
 User Experience Design,
 ICT for Education
-
-Reach me @kgvalc on 
-[Twitter](https://twitter.com/kgvalc),
-[Medium](https://medium.com/@kgvalc),
-[YouTube](https://www.youtube.com/kgvalc),
-[Messenger](https://m.me/kgvalc),
-[Reddit](https://www.reddit.com/user/KurtValcorza)
