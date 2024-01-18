@@ -1,6 +1,6 @@
 <!---
 - 👋 Hi, I’m @kurtvalcorza
-- 👀 I’m interested in data analytics, user experience design, ICT for education
+- 👀 I’m interested in data analytics, user experience design, multimedia studies, ICT for education
 - 🌱 I’m currently learning data analytics, programming with python, and SQL for data science.
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
@@ -9,16 +9,8 @@ kurtvalcorza/kurtvalcorza is a ✨ special ✨ repository because its `README.md
 You can click the Preview link to take a look at your changes.
 --->
 
-# About Me
-
-Fields of Interests:
-Data Analytics,
-User Experience Design,
-ICT for Education,
-Multimedia Studies
-
 # Current Role
-**Project Technical Assistant IV, Department of Science and Technology-Advanced Science and Technology Institute**
+**Project Technical Assistant IV (Technical Writer), Department of Science and Technology-Advanced Science and Technology Institute**
 
 Beyond conventional technical writing, I am entrusted with the communication and documentation of cutting-edge ICT initiatives within the Computer Software Division, working closely with the project management, AI engineering, and software engineering teams. Excited to be at the forefront of science communication, my role involves developing compelling narratives and translating technical concepts into easy-to-understand content, ensuring that information within the organization is conveyed and presented with utmost clarity and impact. [...](https://asti.dost.gov.ph/author/kurt-valcorza)
 
