@@ -13,6 +13,7 @@ You can click the Preview link to take a look at your changes.
 
 This Colab notebook demonstrates how to transcribe audio files using OpenAI’s Whisper model via the whisper Python package. It supports common audio formats (e.g., MP3, WAV) and provides a simple pipeline for uploading, transcribing, and saving transcripts.
 
+<!---
 # Reach me @
 - [LinkedIn](https://www.linkedin.com/in/kgvalc/)
 - [Substack](https://kurtvalcorza.substack.com/)
@@ -23,3 +24,4 @@ This Colab notebook demonstrates how to transcribe audio files using OpenAI’s 
 - [Threads](https://www.threads.net/@kgvalc)
 - [Twitter](https://twitter.com/kgvalc)
 - [Reddit](https://www.reddit.com/user/KurtValcorza)
+--->
