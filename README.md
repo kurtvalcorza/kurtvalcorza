@@ -1,7 +1,12 @@
+# Research Writer: Agent-Assisted Academic Research Workflow
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/kurtvalcorza/research-writer)
+
+A modular system for rigorous academic, policy, and R&D research through a structured multi-phase workflow. Features literature discovery, synthesis, argument structuring, and drafting with built-in quality control checkpoints. Includes both CLI and production-ready web interface (Next.js, React 19, TypeScript) with visual dashboard and real-time execution monitoring.
+
 # Transcribe Audio with OpenAI Whisper
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kurtvalcorza/notebooks/blob/main/Transcribe_Audio_Whisper.ipynb)
 
-This notebook demonstrates how to transcribe audio files using OpenAI’s Whisper model via the whisper Python package. It supports common audio formats (e.g., MP3, WAV) and provides a simple pipeline for uploading, transcribing, and saving transcripts.
+This notebook demonstrates how to transcribe audio files using OpenAI's Whisper model via the whisper Python package. It supports common audio formats (e.g., MP3, WAV) and provides a simple pipeline for uploading, transcribing, and saving transcripts.
 
 # Audio Diarization with `gpt-4o-transcribe-diarize`
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kurtvalcorza/notebooks/blob/main/speech_to_text_diarization.ipynb)
