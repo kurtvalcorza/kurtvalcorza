@@ -1,4 +1,4 @@
-# Research Writer: Agent-Assisted Academic Research Workflow
+# Research Writer: Subagent-Based Research Orchestration
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/kurtvalcorza/research-writer)
 
 Subagent-based orchestration system for automated literature reviews. Transforms research PDFs into publication-ready reviews through 7-phase workflow with isolated contexts, automatic orchestration, quality gates, and resumable execution.
