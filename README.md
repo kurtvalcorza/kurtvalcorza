@@ -1,5 +1,6 @@
 # AI Readiness Assessment Chatbot
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/kurtvalcorza/ai-readiness-assessment)
+
 Self-service chatbot for assessing AI readiness of Philippine government agencies and NGOs.
 
 # Research Writer: Subagent-Based Research Orchestration
