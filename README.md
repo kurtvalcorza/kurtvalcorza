@@ -6,7 +6,12 @@ Self-service chatbot for assessing AI readiness of Philippine government agencie
 # Research Writer: Subagent-Based Research Orchestration
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/kurtvalcorza/research-writer)
 
-Subagent-based orchestration system for automated literature reviews. Transforms research PDFs into publication-ready reviews through 7-phase workflow with isolated contexts, automatic orchestration, quality gates, and resumable execution.
+Multi-agent literature review workflow for Claude Code. Turns research PDFs into a structured, citation-checked literature review draft through an optional search-strategy phase plus 7 core phases, each running in an isolated context — with human checkpoints, two quality gates (citation integrity and cross-phase consistency), and resumable execution.
+
+# Research Deck Builder
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/kurtvalcorza/research-deck-builder)
+
+Claude Code skill that turns a written research/training module (Markdown with references) into a polished, presenter-ready PowerPoint deck — outline, source-checked citations, an embedded speaker script, and a clean dark + blue design built from vector shapes. Also repairs existing decks: reinstates dropped citations, embeds notes, and re-skins backgrounds, with a QA gate that verifies structure and fidelity against the source.
 
 # Transcribe Audio with OpenAI Whisper
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kurtvalcorza/notebooks/blob/main/Transcribe_Audio_Whisper.ipynb)
