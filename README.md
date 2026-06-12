@@ -13,6 +13,11 @@ Multi-agent literature review workflow for Claude Code. Turns research PDFs into
 
 Claude Code skill that turns a written research/training module (Markdown with references) into a polished, presenter-ready PowerPoint deck — outline, source-checked citations, an embedded speaker script, and a clean dark + blue design built from vector shapes. Also repairs existing decks: reinstates dropped citations, embeds notes, and re-skins backgrounds, with a QA gate that verifies structure and fidelity against the source.
 
+# Agentic Vault Template
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/kurtvalcorza/agentic-vault)
+
+An Obsidian vault template for working *with* AI agents — PARA + Zettelkasten organization, a multi-agent governance layer (`AGENTS.md` as a shared constitution for Claude Code, Gemini CLI, Kiro, Codex, etc.), 36 reusable agent skills, and hands-off automation: session logs with agent provenance, secret-gated git snapshots, and off-site history backups.
+
 # Transcribe Audio with OpenAI Whisper
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kurtvalcorza/notebooks/blob/main/Transcribe_Audio_Whisper.ipynb)
 
