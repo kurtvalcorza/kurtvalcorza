@@ -1,5 +1,3 @@
-![](https://komarev.com/ghpvc/?username=kurtvalcorza&style=pixel)
-
 # AI Readiness Assessment Chatbot
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/kurtvalcorza/ai-readiness-assessment)
 
@@ -29,3 +27,5 @@ An Obsidian vault template for working *with* AI agents — PARA + Zettelkasten 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/kurtvalcorza/notebooks)
 
 Ready-to-run Google Colab notebooks for speech and ML experiments — audio transcription, speaker diarization, and text-to-speech with OpenAI Whisper, `gpt-4o-transcribe-diarize`, Microsoft VibeVoice-ASR, and Qwen3-ASR/TTS, plus utilities like H2O Flow. Open any notebook in Colab straight from the [repo README](https://github.com/kurtvalcorza/notebooks#readme).
+
+![](https://komarev.com/ghpvc/?username=kurtvalcorza&style=pixel)
