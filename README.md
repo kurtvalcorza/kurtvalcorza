@@ -1,3 +1,5 @@
+![](https://komarev.com/ghpvc/?username=kurtvalcorza&style=pixel)
+
 # AI Readiness Assessment Chatbot
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/kurtvalcorza/ai-readiness-assessment)
 
