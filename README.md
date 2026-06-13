@@ -18,6 +18,11 @@ A suite of 23 composable agent skills that take a review from a *question* to a 
 
 Claude Code skill that turns a written research/training module (Markdown with references) into a polished, presenter-ready PowerPoint deck — outline, source-checked citations, an embedded speaker script, and a clean dark + blue design built from vector shapes. Also repairs existing decks: reinstates dropped citations, embeds notes, and re-skins backgrounds, with a QA gate that verifies structure and fidelity against the source.
 
+# Presentation Builder
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/kurtvalcorza/presentation-builder)
+
+A suite of composable, agent-ready skills for turning source material into finished presentations — synthesize research into Marp decks, generate native PowerPoint, build HTML slides, draft a spoken talk script, turn speeches into producer rundowns/storyboards, or summarize a folder of slide images into a note. Each skill follows the open [Agent Skills](https://agentskills.io) standard (a `SKILL.md` plus supporting scripts), works on its own, and chains into a single source-to-deck pipeline.
+
 # Agentic Vault Template
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/kurtvalcorza/agentic-vault)
 
