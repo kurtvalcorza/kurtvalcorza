@@ -8,6 +8,11 @@ Self-service chatbot for assessing AI readiness of Philippine government agencie
 
 Multi-agent literature review workflow for Claude Code. Turns research PDFs into a structured, citation-checked literature review draft through an optional search-strategy phase plus 7 core phases, each running in an isolated context — with human checkpoints, two quality gates (citation integrity and cross-phase consistency), and resumable execution.
 
+# Agentic Research: AI-Agent Pipeline for Literature & Systematic Reviews
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/kurtvalcorza/agentic-research)
+
+A suite of 23 composable agent skills that take a review from a *question* to a *defensible synthesis* — design a registrable PRISMA-P protocol, search the literature (multi-database + snowball with a PRISMA-S log), deduplicate, screen (single or dual-reviewer with Cohen's κ), extract, appraise risk of bias, grade certainty with GRADE, draft, and verify every citation against the real bibliographic record — emitting a PRISMA 2020 flow diagram whose numbers reconcile or the build fails. Keyless by default (OpenAlex/CrossRef + Python stdlib), aligned with PRISMA 2020, Cochrane, and GRADE, and deliberately human-gated where LLMs are weak (risk-of-bias appraisal, numeric verification).
+
 # Research Deck Builder
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/kurtvalcorza/research-deck-builder)
 
