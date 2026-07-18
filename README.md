@@ -1,6 +1,6 @@
-### Translating AI R&D into strategic communications + Building practical tools with AI for the Philippine public sector
+### Strategic comms for AI R&D. Practical AI tools for the Philippine public sector.
 
-Assessment chatbots, agent skills, and lightweight ML systems — turning complex research and development into usable applications.
+Practical tools ***built with AI*** — assessment chatbots, agent skills, and lightweight ML systems — that turn complex research and development into usable applications for the Philippine public sector.
 
 ---
 
