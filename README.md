@@ -18,8 +18,10 @@ I build practical, working tools with AI — composable agent skills, self-servi
 - **[agentic-vault](https://github.com/kurtvalcorza/agentic-vault)** — an Obsidian vault template for working *with* AI agents (PARA + multi-agent governance)
 
 #### 🏛️ Applied AI for government & organizations
-- **[ai-readiness-assessment](https://github.com/kurtvalcorza/ai-readiness-assessment)** — an AI-readiness chatbot for Philippine government agencies & NGOs
 - **[aiaas-marketability](https://github.com/kurtvalcorza/aiaas-marketability)** — a Demand Viability Index chatbot for a localized AIaaS platform (DOST-NAIRA)
+- **[ai-readiness-bot](https://github.com/kurtvalcorza/ai-readiness-bot)** — a security-first AI-readiness assessment chatbot for PH government agencies & NGOs (Next.js, multi-provider, PII redaction, PDF reports)
+- **[acabai-ph](https://github.com/kurtvalcorza/acabai-ph)** — the DOST-ASTI showcase site for the Philippines' national AI initiatives (NAIRA, DIMER, iTANONG), with an embedded chatbot and automatic failover
+- **[ai-readiness-assessment](https://github.com/kurtvalcorza/ai-readiness-assessment)** — an AI-readiness chatbot for Philippine government agencies & NGOs
 
 #### ⚙️ ML infrastructure & experiments
 - **[benchmarking-harness](https://github.com/kurtvalcorza/benchmarking-harness)** — a model-class-aware, three-tier evaluation gate for computer-vision models (capability → domain stress → operational safety) with a human review gate and auto-generated Model Cards
