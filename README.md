@@ -1,36 +1,33 @@
-# AI Readiness Assessment Chatbot
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/kurtvalcorza/ai-readiness-assessment)
+### Translating AI R&D into strategic communications
 
-Self-service chatbot for assessing AI readiness of Philippine government agencies and NGOs.
+I build practical, working tools with AI — composable agent skills, self-service AI-assessment chatbots, and single-machine ML infrastructure — spec-driven and human-gated where it matters, for the Philippine public sector.
 
-# Research Writer: Subagent-Based Research Orchestration
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/kurtvalcorza/research-writer)
+🔗 [LinkedIn](https://www.linkedin.com/in/kgvalc/)
 
-Multi-agent literature review workflow for Claude Code. Turns research PDFs into a structured, citation-checked literature review draft through an optional search-strategy phase plus 7 core phases, each running in an isolated context — with human checkpoints, two quality gates (citation integrity and cross-phase consistency), and resumable execution.
+---
 
-# Agentic Research: AI-Agent Pipeline for Literature & Systematic Reviews
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/kurtvalcorza/agentic-research)
+#### 🔬 Research & synthesis
+- **[agentic-research](https://github.com/kurtvalcorza/agentic-research)** — 23-skill PRISMA 2020 / GRADE systematic-review pipeline: a *question* → a *defensible synthesis*
+- **[research-writer](https://github.com/kurtvalcorza/research-writer)** — subagent-orchestrated, citation-checked literature-review drafting
 
-A suite of 23 composable agent skills that take a review from a *question* to a *defensible synthesis* — design a registrable PRISMA-P protocol, search the literature (multi-database + snowball with a PRISMA-S log), deduplicate, screen (single or dual-reviewer with Cohen's κ), extract, appraise risk of bias, grade certainty with GRADE, draft, and verify every citation against the real bibliographic record — emitting a PRISMA 2020 flow diagram whose numbers reconcile or the build fails. Keyless by default (OpenAlex/CrossRef + Python stdlib), aligned with PRISMA 2020, Cochrane, and GRADE, and deliberately human-gated where LLMs are weak (risk-of-bias appraisal, numeric verification).
+#### 📚 Knowledge work
+- **[keynote-builder](https://github.com/kurtvalcorza/keynote-builder)** — a governed, human-gated pipeline that turns a brief into a stage-ready keynote (slide deck + speaker script)
+- **[office-reports](https://github.com/kurtvalcorza/office-reports)** — agent skills for institutional document drafting: travel reports, minutes, and a weekly → terminal M&E reporting pipeline, evidence-only with gap flags
+- **[presentation-builder](https://github.com/kurtvalcorza/presentation-builder)** — composable skills for finished presentations: Marp, native PPTX, HTML slides, talk scripts
+- **[research-deck-builder](https://github.com/kurtvalcorza/research-deck-builder)** — a research/training module → a presenter-ready, source-checked deck
+- **[agentic-vault](https://github.com/kurtvalcorza/agentic-vault)** — an Obsidian vault template for working *with* AI agents (PARA + multi-agent governance)
 
-# Research Deck Builder
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/kurtvalcorza/research-deck-builder)
+#### 🏛️ Applied AI for government & organizations
+- **[aiaas-marketability](https://github.com/kurtvalcorza/aiaas-marketability)** — a Demand Viability Index chatbot for a localized AIaaS platform (DOST-NAIRA)
+- **[ai-readiness-bot](https://github.com/kurtvalcorza/ai-readiness-bot)** — a security-first AI-readiness assessment chatbot for PH government agencies & NGOs (Next.js, multi-provider, PII redaction, PDF reports); a hardened rebuild of the original [ai-readiness-assessment](https://github.com/kurtvalcorza/ai-readiness-assessment)
+- **[acabai-ph](https://github.com/kurtvalcorza/acabai-ph)** — the DOST-ASTI showcase site for the Philippines' national AI initiatives (NAIRA, DIMER, iTANONG), with an embedded chatbot and automatic failover
 
-Claude Code skill that turns a written research/training module (Markdown with references) into a polished, presenter-ready PowerPoint deck — outline, source-checked citations, an embedded speaker script, and a clean dark + blue design built from vector shapes. Also repairs existing decks: reinstates dropped citations, embeds notes, and re-skins backgrounds, with a QA gate that verifies structure and fidelity against the source.
+#### ⚙️ ML infrastructure & experiments
+- **[benchmarking-harness](https://github.com/kurtvalcorza/benchmarking-harness)** — a model-class-aware, three-tier evaluation gate for computer-vision models (capability → domain stress → operational safety) with a human review gate and auto-generated Model Cards
+- **[mlops-lite](https://github.com/kurtvalcorza/mlops-lite)** — a full-lifecycle, single-GPU MLOps platform (data → train → serve → monitor → retrain)
+- **[notebooks](https://github.com/kurtvalcorza/notebooks)** — ready-to-run Colab speech & ML experiments (ASR, diarization, TTS)
 
-# Presentation Builder
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/kurtvalcorza/presentation-builder)
-
-A suite of composable, agent-ready skills for turning source material into finished presentations — synthesize research into Marp decks, generate native PowerPoint, build HTML slides, draft a spoken talk script, turn speeches into producer rundowns/storyboards, or summarize a folder of slide images into a note. Each skill follows the open [Agent Skills](https://agentskills.io) standard (a `SKILL.md` plus supporting scripts), works on its own, and chains into a single source-to-deck pipeline.
-
-# Agentic Vault Template
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/kurtvalcorza/agentic-vault)
-
-An Obsidian vault template for working *with* AI agents — PARA + Zettelkasten organization, a multi-agent governance layer (`AGENTS.md` as a shared constitution for Claude Code, Gemini CLI, Kiro, Codex, etc.), 36 reusable agent skills, and hands-off automation: session logs with agent provenance, secret-gated git snapshots, and off-site history backups.
-
-# Notebooks: Colab ML & Audio Experiments
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/kurtvalcorza/notebooks)
-
-Ready-to-run Google Colab notebooks for speech and ML experiments — audio transcription, speaker diarization, and text-to-speech with OpenAI Whisper, `gpt-4o-transcribe-diarize`, Microsoft VibeVoice-ASR, and Qwen3-ASR/TTS, plus utilities like H2O Flow. Open any notebook in Colab straight from the [repo README](https://github.com/kurtvalcorza/notebooks#readme).
+#### 🧰 Web apps & tools
+- **[pdf-signer-pwa](https://github.com/kurtvalcorza/pdf-signer-pwa)** — private, offline PKCS#12 PDF signing that never leaves your device
 
 ![](https://komarev.com/ghpvc/?username=kurtvalcorza&style=pixel)
