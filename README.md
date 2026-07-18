@@ -2,8 +2,6 @@
 
 I build practical, working tools with AI — composable agent skills, self-service AI-assessment chatbots, and single-machine ML infrastructure — spec-driven and human-gated where it matters, for the Philippine public sector.
 
-🔗 [LinkedIn](https://www.linkedin.com/in/kgvalc/)
-
 ---
 
 #### 🔬 Research & synthesis
