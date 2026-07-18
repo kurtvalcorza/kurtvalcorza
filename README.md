@@ -10,7 +10,8 @@ I build practical, working tools with AI — composable agent skills, self-servi
 - **[agentic-research](https://github.com/kurtvalcorza/agentic-research)** — 23-skill PRISMA 2020 / GRADE systematic-review pipeline: a *question* → a *defensible synthesis*
 - **[research-writer](https://github.com/kurtvalcorza/research-writer)** — subagent-orchestrated, citation-checked literature-review drafting
 
-#### 🎞️ Documents, decks & knowledge
+#### 📚 Knowledge work
+- **[keynote-builder](https://github.com/kurtvalcorza/keynote-builder)** — a governed, human-gated pipeline that turns a brief into a stage-ready keynote (slide deck + speaker script)
 - **[presentation-builder](https://github.com/kurtvalcorza/presentation-builder)** — composable skills for finished presentations: Marp, native PPTX, HTML slides, talk scripts
 - **[research-deck-builder](https://github.com/kurtvalcorza/research-deck-builder)** — a research/training module → a presenter-ready, source-checked deck
 - **[agentic-vault](https://github.com/kurtvalcorza/agentic-vault)** — an Obsidian vault template for working *with* AI agents (PARA + multi-agent governance)
