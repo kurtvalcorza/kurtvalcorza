@@ -12,6 +12,7 @@ I build practical, working tools with AI — composable agent skills, self-servi
 
 #### 📚 Knowledge work
 - **[keynote-builder](https://github.com/kurtvalcorza/keynote-builder)** — a governed, human-gated pipeline that turns a brief into a stage-ready keynote (slide deck + speaker script)
+- **[office-reports](https://github.com/kurtvalcorza/office-reports)** — agent skills for institutional document drafting: travel reports, minutes, and a weekly → terminal M&E reporting pipeline, evidence-only with gap flags
 - **[presentation-builder](https://github.com/kurtvalcorza/presentation-builder)** — composable skills for finished presentations: Marp, native PPTX, HTML slides, talk scripts
 - **[research-deck-builder](https://github.com/kurtvalcorza/research-deck-builder)** — a research/training module → a presenter-ready, source-checked deck
 - **[agentic-vault](https://github.com/kurtvalcorza/agentic-vault)** — an Obsidian vault template for working *with* AI agents (PARA + multi-agent governance)
