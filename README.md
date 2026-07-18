@@ -18,6 +18,7 @@ I build practical, working tools with AI — composable agent skills, self-servi
 #### 🏛️ Applied AI for government & organizations
 - **[aiaas-marketability](https://github.com/kurtvalcorza/aiaas-marketability)** — a Demand Viability Index chatbot for a localized AIaaS platform (DOST-NAIRA)
 - **[acabai-ph](https://github.com/kurtvalcorza/acabai-ph)** — the DOST-ASTI showcase site for the Philippines' national AI initiatives (NAIRA, DIMER, iTANONG), with an embedded chatbot and automatic failover
+- **[ai-readiness-assessment](https://github.com/kurtvalcorza/ai-readiness-assessment)** — an AI-readiness assessment chatbot for Philippine government agencies & NGOs
 
 #### ⚙️ ML infrastructure & experiments
 - **[benchmarking-harness](https://github.com/kurtvalcorza/benchmarking-harness)** — a model-class-aware, three-tier evaluation gate for computer-vision models (capability → domain stress → operational safety) with a human review gate and auto-generated Model Cards
