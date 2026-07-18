@@ -4,7 +4,7 @@
 
 > Translating AI R&D into strategic communications
 
-I'm not a developer by training — I build with AI (Claude Code). These projects turn AI R&D into practical, working tools: composable agent skills, self-service AI-assessment chatbots, and single-machine ML infrastructure — spec-driven, keyless-by-default, and human-gated where it matters. Agentic AI and lightweight MLOps for research and the Philippine public sector.
+I build with AI for research and the Philippine public sector — turning AI R&D into practical, working tools: composable agent skills, self-service AI-assessment chatbots, and single-machine ML infrastructure, spec-driven and human-gated where it matters.
 
 🔗 [LinkedIn](https://www.linkedin.com/in/kgvalc/)
 
