@@ -26,8 +26,4 @@ I build composable Claude Code agent skills, self-service AI-assessment chatbots
 #### 🧰 Web apps & tools
 - **[pdf-signer-pwa](https://github.com/kurtvalcorza/pdf-signer-pwa)** — private, offline PKCS#12 PDF signing that never leaves your device
 
----
-
-📫 **kurt.valcorza@asti.dost.gov.ph**
-
 ![](https://komarev.com/ghpvc/?username=kurtvalcorza&style=pixel)
