@@ -6,7 +6,7 @@ I build practical, working tools with AI — composable agent skills, self-servi
 
 ---
 
-#### 🧭 Agentic research & writing
+#### 🔬 Research & synthesis
 - **[agentic-research](https://github.com/kurtvalcorza/agentic-research)** — 23-skill PRISMA 2020 / GRADE systematic-review pipeline: a *question* → a *defensible synthesis*
 - **[research-writer](https://github.com/kurtvalcorza/research-writer)** — subagent-orchestrated, citation-checked literature-review drafting
 
