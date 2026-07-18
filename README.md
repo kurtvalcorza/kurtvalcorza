@@ -1,6 +1,6 @@
 ### Translating AI R&D into strategic communications
 
-Practical, working tools *built with AI* — composable agent skills, self-service AI-assessment chatbots, and single-machine ML infrastructure — spec-driven and human-gated where it matters, for the Philippine public sector.
+Practical tools ***built with AI*** — assessment chatbots, agent skills, and lightweight ML systems — that turn complex research and development into usable applications for the Philippine public sector.
 
 ---
 
