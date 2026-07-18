@@ -1,10 +1,6 @@
-### Kurt Valcorza
+### Translating AI R&D into strategic communications
 
-**Project Information Officer · [DOST-ASTI](https://asti.dost.gov.ph)**
-
-> Translating AI R&D into strategic communications
-
-I build with AI for research and the Philippine public sector — turning AI R&D into practical, working tools: composable agent skills, self-service AI-assessment chatbots, and single-machine ML infrastructure, spec-driven and human-gated where it matters.
+I build with AI for research and the Philippine public sector.
 
 🔗 [LinkedIn](https://www.linkedin.com/in/kgvalc/)
 
