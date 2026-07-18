@@ -20,6 +20,7 @@ I build practical, working tools with AI — composable agent skills, self-servi
 - **[aiaas-marketability](https://github.com/kurtvalcorza/aiaas-marketability)** — a Demand Viability Index chatbot for a localized AIaaS platform (DOST-NAIRA)
 
 #### ⚙️ ML infrastructure & experiments
+- **[benchmarking-harness](https://github.com/kurtvalcorza/benchmarking-harness)** — a model-class-aware, three-tier evaluation gate for computer-vision models (capability → domain stress → operational safety) with a human review gate and auto-generated Model Cards
 - **[mlops-lite](https://github.com/kurtvalcorza/mlops-lite)** — a full-lifecycle, single-GPU MLOps platform (data → train → serve → monitor → retrain)
 - **[notebooks](https://github.com/kurtvalcorza/notebooks)** — ready-to-run Colab speech & ML experiments (ASR, diarization, TTS)
 
