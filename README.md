@@ -9,6 +9,7 @@ Practical tools ***built with AI*** — assessment chatbots, agent skills, and l
 - **[research-writer](https://github.com/kurtvalcorza/research-writer)** — subagent-orchestrated, citation-checked literature-review drafting
 
 #### 📚 Knowledge work
+- **[dost-progress-report](https://github.com/kurtvalcorza/dost-progress-report)** — one Markdown file → a Word progress report in the DOST prescribed format (Forms 6 & 7), with nine checks that catch dropped chapters, stale cross-references, and citation gaps
 - **[keynote-builder](https://github.com/kurtvalcorza/keynote-builder)** — a governed, human-gated pipeline that turns a brief into a stage-ready keynote (slide deck + speaker script)
 - **[office-reports](https://github.com/kurtvalcorza/office-reports)** — agent skills for institutional document drafting: travel reports, minutes, and a weekly → terminal M&E reporting pipeline, evidence-only with gap flags
 - **[presentation-builder](https://github.com/kurtvalcorza/presentation-builder)** — composable skills for finished presentations: Marp, native PPTX, HTML slides, talk scripts
