@@ -5,6 +5,7 @@ Practical tools ***built with AI*** — assessment chatbots, agent skills, and l
 ---
 
 #### 🔬 Research & synthesis
+- **[citation-audit](https://github.com/kurtvalcorza/citation-audit)** — audits a finished reference list against the bibliographic record, catching fabricated, misattributed, and misdirected citations — including identifiers that resolve cleanly to an entirely different paper. Keyless; the calls that change what a document claims stay with the human
 - **[agentic-research](https://github.com/kurtvalcorza/agentic-research)** — 23-skill PRISMA 2020 / GRADE systematic-review pipeline: a *question* → a *defensible synthesis*
 - **[research-writer](https://github.com/kurtvalcorza/research-writer)** — subagent-orchestrated, citation-checked literature-review drafting
 
