@@ -23,6 +23,7 @@ Practical tools ***built with AI*** — assessment chatbots, agent skills, and l
 - **[ai-readiness-assessment](https://github.com/kurtvalcorza/ai-readiness-assessment)** — an AI-readiness assessment chatbot for Philippine government agencies & NGOs
 
 #### ⚙️ ML infrastructure & experiments
+- **[litert-lm-plugin-cc](https://github.com/kurtvalcorza/litert-lm-plugin-cc)** — an unofficial Claude Code plugin for a local, on-device model served by LiteRT-LM: offline, no API tokens, nothing leaving the machine — and a metadata repair for the silent CPU fallback that costs a measured 4.3×
 - **[inference-bench](https://github.com/kurtvalcorza/inference-bench)** — an MLPerf + TensorRT inference and GPU/CPU hardware benchmark suite across heterogeneous hardware (RTX 5070 Ti, T4, A100/H200, CPU), with reproducible scripts, notebooks, and results
 - **[benchmarking-harness](https://github.com/kurtvalcorza/benchmarking-harness)** — a model-class-aware, three-tier evaluation gate for computer-vision models (capability → domain stress → operational safety) with a human review gate and auto-generated Model Cards
 - **[mlops-lite](https://github.com/kurtvalcorza/mlops-lite)** — a full-lifecycle, single-GPU MLOps platform (data → train → serve → monitor → retrain)
