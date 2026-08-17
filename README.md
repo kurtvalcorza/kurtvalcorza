@@ -8,6 +8,7 @@ Practical tools ***built with AI*** — assessment chatbots, agent skills, and l
 - **[market-study-template](https://github.com/kurtvalcorza/market-study-template)** — a scaffold for structured market research studies: a Quarto book rendering to PDF/DOCX, a TypeScript survey instrument, and pre-specified analysis contracts so the output tables exist *before* any data is collected
 - **[citation-audit](https://github.com/kurtvalcorza/citation-audit)** — audits a finished reference list against the bibliographic record, catching fabricated, misattributed, and misdirected citations — including identifiers that resolve cleanly to an entirely different paper. Keyless; the calls that change what a document claims stay with the human
 - **[agentic-research](https://github.com/kurtvalcorza/agentic-research)** — 23-skill PRISMA 2020 / GRADE systematic-review pipeline: a *question* → a *defensible synthesis*
+- **[agentic-analytics](https://github.com/kurtvalcorza/agentic-analytics)** — an agent-agnostic, MCP-native analytical runtime: reproducible sandboxed execution with source→execution→evidence provenance and deterministic validation, so an agent's analysis can be re-run and checked instead of taken on trust
 - **[research-writer](https://github.com/kurtvalcorza/research-writer)** — subagent-orchestrated, citation-checked literature-review drafting
 
 #### 📚 Knowledge work
