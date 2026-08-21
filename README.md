@@ -4,6 +4,21 @@ Practical tools ***built with AI*** — assessment chatbots, agent skills, and l
 
 ---
 
+#### 🚧 Current focus
+
+A deliberately small set of projects receiving active development attention.
+
+- **[agentic-vault](https://github.com/kurtvalcorza/agentic-vault)** — agent-agnostic knowledge infrastructure for Obsidian, including graph-aware retrieval, provenance, and multi-agent governance
+- **[agentic-analytics](https://github.com/kurtvalcorza/agentic-analytics)** — MCP-native analytical runtime with reproducible execution and evidence provenance
+- **agent-router** — agent-agnostic model routing and policy infrastructure *(private)*
+- **aiaas-market-study** — reproducible AI-as-a-Service market/feasibility research workflow *(private)*
+- **inventory-intelligence** — applied inventory intelligence system *(private)*
+- **[litert-lm-plugin-cc](https://github.com/kurtvalcorza/litert-lm-plugin-cc)** — local/on-device LiteRT-LM integration for Claude Code
+- **mlops-grid** — MLOps infrastructure work *(private)*
+- **[MITRA model pipelines](https://github.com/kurtvalcorza/mitra-regressor-pipeline)** — reusable classifier/regressor pipeline, finetuning, and dataset-validation components
+
+> **Portfolio rule:** active is a deliberate priority state, not a proxy for recent commits. The full lifecycle inventory and repository-creation policy live in **[PORTFOLIO.md](PORTFOLIO.md)**.
+
 #### 🔬 Research & synthesis
 - **[market-study-template](https://github.com/kurtvalcorza/market-study-template)** — a scaffold for structured market research studies: a Quarto book rendering to PDF/DOCX, a TypeScript survey instrument, and pre-specified analysis contracts so the output tables exist *before* any data is collected
 - **[citation-audit](https://github.com/kurtvalcorza/citation-audit)** — audits a finished reference list against the bibliographic record, catching fabricated, misattributed, and misdirected citations — including identifiers that resolve cleanly to an entirely different paper. Keyless; the calls that change what a document claims stay with the human
@@ -28,10 +43,13 @@ Practical tools ***built with AI*** — assessment chatbots, agent skills, and l
 - **[inference-bench](https://github.com/kurtvalcorza/inference-bench)** — an MLPerf + TensorRT inference and GPU/CPU hardware benchmark suite across heterogeneous hardware (RTX 5070 Ti, T4, A100/H200, CPU), with reproducible scripts, notebooks, and results
 - **[benchmarking-harness](https://github.com/kurtvalcorza/benchmarking-harness)** — a model-class-aware, three-tier evaluation gate for computer-vision models (capability → domain stress → operational safety) with a human review gate and auto-generated Model Cards
 - **[mlops-lite](https://github.com/kurtvalcorza/mlops-lite)** — a full-lifecycle, single-GPU MLOps platform (data → train → serve → monitor → retrain)
+- **[MITRA model pipelines](https://github.com/kurtvalcorza/mitra-classifier-pipeline)** — classifier and regressor families split into independently reusable pipeline, finetuner, and dataset-validator components
 - **[notebooks](https://github.com/kurtvalcorza/notebooks)** — ready-to-run Colab speech & ML experiments (ASR, diarization, TTS)
 
 #### 🧰 Web apps & tools
 - **[wsl-crew](https://github.com/kurtvalcorza/wsl-crew)** — a Windows tray app that keeps WSL2-hosted services alive: survives idle shutdowns, re-points portproxy rules when the distro IP changes on reboot, and turns the commands you'd otherwise re-Google into one-click repairs
 - **[pdf-signer-pwa](https://github.com/kurtvalcorza/pdf-signer-pwa)** — private, offline PKCS#12 PDF signing that never leaves your device
+
+<sub>Repository lifecycle: **Active** → **Maintained** → **Experimental/Incubating** → **Archived**. Component repos stay separate only when independent versioning, reuse, access control, CI, or deployment boundaries justify it. See [PORTFOLIO.md](PORTFOLIO.md).</sub>
 
 ![](https://komarev.com/ghpvc/?username=kurtvalcorza&style=pixel)
