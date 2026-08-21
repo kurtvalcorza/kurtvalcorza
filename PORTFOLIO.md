@@ -12,7 +12,7 @@ This document is the maintenance layer behind the public profile README. It exis
 | **Archive candidate** | Completed, superseded, or no longer expected to evolve | Review before archiving; do not delete by default |
 | **Archived** | Historical/read-only project | Retained for provenance and reference |
 
-**Active is a portfolio decision, not a commit-frequency metric.**
+**Portfolio rule:** active is a deliberate priority state, not a proxy for recent commits. This file is the authoritative lifecycle inventory and repository-creation policy for the profile portfolio.
 
 ## Current portfolio audit
 
