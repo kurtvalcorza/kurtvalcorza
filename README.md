@@ -6,7 +6,7 @@ Practical tools ***built with AI*** — assessment chatbots, agent skills, and l
 
 #### 🚧 Current focus
 
-A deliberately small set of projects receiving active development attention.
+Repository lifecycle: **Active** → **Maintained** → **Experimental/Incubating** → **Archived**. Component repos stay separate only when independent versioning, reuse, access control, CI, or deployment boundaries justify it. See **[PORTFOLIO.md](PORTFOLIO.md)**.
 
 - **[agentic-vault](https://github.com/kurtvalcorza/agentic-vault)** — agent-agnostic knowledge infrastructure for Obsidian, including graph-aware retrieval, provenance, and multi-agent governance
 - **[agentic-analytics](https://github.com/kurtvalcorza/agentic-analytics)** — MCP-native analytical runtime with reproducible execution and evidence provenance
@@ -16,8 +16,6 @@ A deliberately small set of projects receiving active development attention.
 - **[litert-lm-plugin-cc](https://github.com/kurtvalcorza/litert-lm-plugin-cc)** — local/on-device LiteRT-LM integration for Claude Code
 - **mlops-grid** — MLOps infrastructure work *(private)*
 - **[MITRA model pipelines](https://github.com/kurtvalcorza/mitra-regressor-pipeline)** — reusable classifier/regressor pipeline, finetuning, and dataset-validation components
-
-> **Portfolio rule:** active is a deliberate priority state, not a proxy for recent commits. The full lifecycle inventory and repository-creation policy live in **[PORTFOLIO.md](PORTFOLIO.md)**.
 
 #### 🔬 Research & synthesis
 - **[market-study-template](https://github.com/kurtvalcorza/market-study-template)** — a scaffold for structured market research studies: a Quarto book rendering to PDF/DOCX, a TypeScript survey instrument, and pre-specified analysis contracts so the output tables exist *before* any data is collected
@@ -49,7 +47,5 @@ A deliberately small set of projects receiving active development attention.
 #### 🧰 Web apps & tools
 - **[wsl-crew](https://github.com/kurtvalcorza/wsl-crew)** — a Windows tray app that keeps WSL2-hosted services alive: survives idle shutdowns, re-points portproxy rules when the distro IP changes on reboot, and turns the commands you'd otherwise re-Google into one-click repairs
 - **[pdf-signer-pwa](https://github.com/kurtvalcorza/pdf-signer-pwa)** — private, offline PKCS#12 PDF signing that never leaves your device
-
-<sub>Repository lifecycle: **Active** → **Maintained** → **Experimental/Incubating** → **Archived**. Component repos stay separate only when independent versioning, reuse, access control, CI, or deployment boundaries justify it. See [PORTFOLIO.md](PORTFOLIO.md).</sub>
 
 ![](https://komarev.com/ghpvc/?username=kurtvalcorza&style=pixel)
