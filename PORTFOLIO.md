@@ -22,6 +22,7 @@ Audit date: **2026-08-21**. Scope: repositories visible through the connected Gi
 
 | Project / family | Notes |
 | --- | --- |
+| `agent-relay` | Agent-agnostic multi-agent coordination protocol and skill |
 | `agentic-vault` | Agent-agnostic knowledge infrastructure / Obsidian vault system |
 | `agentic-analytics` | Agent-agnostic analytical runtime |
 | `agent-router` | Model-routing infrastructure; private |
@@ -90,6 +91,7 @@ GitHub personal repositories have no folder hierarchy, so repository names act a
 
 | Namespace | Portfolio meaning |
 | --- | --- |
+| `agent-*` | Agent coordination and routing infrastructure |
 | `agentic-*` | Agent infrastructure and agent-native workflows |
 | `mlops-*` | ML platform / operations infrastructure |
 | `mitra-*` | MITRA classifier and regressor ecosystem |
