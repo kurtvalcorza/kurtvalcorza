@@ -41,7 +41,8 @@ Repository lifecycle: **Active** → **Maintained** → **Experimental/Incubatin
 - **[inference-bench](https://github.com/kurtvalcorza/inference-bench)** — an MLPerf + TensorRT inference and GPU/CPU hardware benchmark suite across heterogeneous hardware (RTX 5070 Ti, T4, A100/H200, CPU), with reproducible scripts, notebooks, and results
 - **[benchmarking-harness](https://github.com/kurtvalcorza/benchmarking-harness)** — a model-class-aware, three-tier evaluation gate for computer-vision models (capability → domain stress → operational safety) with a human review gate and auto-generated Model Cards
 - **[mlops-lite](https://github.com/kurtvalcorza/mlops-lite)** — a full-lifecycle, single-GPU MLOps platform (data → train → serve → monitor → retrain)
-- **[MITRA model pipelines](https://github.com/kurtvalcorza/mitra-classifier-pipeline)** — classifier and regressor families split into independently reusable pipeline, finetuner, and dataset-validator components
+- **Mitra tabular pipelines** — DIMER pipelines that fine-tune Mitra (AutoGluon, Apache-2.0), a tabular foundation model pretrained on 45M synthetic datasets and no real data: [classifier](https://github.com/kurtvalcorza/mitra-classifier-pipeline) and [regressor](https://github.com/kurtvalcorza/mitra-regressor-pipeline), each shipping a CPU dataset validator and a GPU fine-tuner
+- **TabICLv2 tabular pipelines** *(incubating)* — DIMER pipelines for TabICLv2 (Inria Soda, BSD-3-Clause), an in-context learner that reads labelled rows as context: [classifier](https://github.com/kurtvalcorza/tabicl-classifier-pipeline) and [regressor](https://github.com/kurtvalcorza/tabicl-regressor-pipeline)
 - **[notebooks](https://github.com/kurtvalcorza/notebooks)** — ready-to-run Colab speech & ML experiments (ASR, diarization, TTS)
 
 #### 🧰 Web apps & tools
