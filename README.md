@@ -10,6 +10,7 @@ Repository lifecycle: **Active** → **Maintained** → **Experimental/Incubatin
 
 - **[agentic-vault](https://github.com/kurtvalcorza/agentic-vault)** — agent-agnostic knowledge infrastructure for Obsidian, including graph-aware retrieval, provenance, and multi-agent governance
 - **[agentic-analytics](https://github.com/kurtvalcorza/agentic-analytics)** — MCP-native analytical runtime with reproducible execution and evidence provenance
+- **[agent-relay](https://github.com/kurtvalcorza/agent-relay)** — agent-agnostic coordination protocol for handing work between independent agents: role routing, durable state, and reproducible evidence
 - **agent-router** — agent-agnostic model routing and policy infrastructure *(private)*
 - **aiaas-market-study** — reproducible AI-as-a-Service market/feasibility research workflow *(private)*
 - **inventory-intelligence** — applied inventory intelligence system *(private)*
@@ -46,6 +47,7 @@ Repository lifecycle: **Active** → **Maintained** → **Experimental/Incubatin
 - **[notebooks](https://github.com/kurtvalcorza/notebooks)** — ready-to-run Colab speech & ML experiments (ASR, diarization, TTS)
 
 #### 🧰 Web apps & tools
+- **[agent-relay](https://github.com/kurtvalcorza/agent-relay)** — a coordination skill for handing work between independent AI agents or sessions: five roles (builder, reviewer, executor, verifier, integrator) routed automatically from the task and live workflow state, with durable artifacts standing in for shared memory and a verifier gate before anything is called done
 - **[wsl-crew](https://github.com/kurtvalcorza/wsl-crew)** — a Windows tray app that keeps WSL2-hosted services alive: survives idle shutdowns, re-points portproxy rules when the distro IP changes on reboot, and turns the commands you'd otherwise re-Google into one-click repairs
 - **[pdf-signer-pwa](https://github.com/kurtvalcorza/pdf-signer-pwa)** — private, offline PKCS#12 PDF signing that never leaves your device
 
