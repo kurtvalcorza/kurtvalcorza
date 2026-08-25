@@ -41,7 +41,10 @@ Repository lifecycle: **Active** → **Maintained** → **Experimental/Incubatin
 - **[inference-bench](https://github.com/kurtvalcorza/inference-bench)** — an MLPerf + TensorRT inference and GPU/CPU hardware benchmark suite across heterogeneous hardware (RTX 5070 Ti, T4, A100/H200, CPU), with reproducible scripts, notebooks, and results
 - **[benchmarking-harness](https://github.com/kurtvalcorza/benchmarking-harness)** — a model-class-aware, three-tier evaluation gate for computer-vision models (capability → domain stress → operational safety) with a human review gate and auto-generated Model Cards
 - **[mlops-lite](https://github.com/kurtvalcorza/mlops-lite)** — a full-lifecycle, single-GPU MLOps platform (data → train → serve → monitor → retrain)
-- **[MITRA model pipelines](https://github.com/kurtvalcorza/mitra-classifier-pipeline)** — classifier and regressor families split into independently reusable pipeline, finetuner, and dataset-validator components
+- **[mitra-classifier-pipeline](https://github.com/kurtvalcorza/mitra-classifier-pipeline)** — a DIMER pipeline that fine-tunes Mitra (AutoGluon, Apache-2.0) — a tabular foundation model pretrained on 45M synthetic datasets and no real data — on your own categorical target; ships as a CPU dataset validator plus a GPU fine-tuner
+- **[mitra-regressor-pipeline](https://github.com/kurtvalcorza/mitra-regressor-pipeline)** — the same pipeline for a numeric target, with a zero-shot in-context mode when no GPU is available
+- **[tabicl-classifier-pipeline](https://github.com/kurtvalcorza/tabicl-classifier-pipeline)** — a DIMER pipeline for TabICLv2 (Inria Soda, BSD-3-Clause), an in-context learner that reads labelled rows as context: a column-wise pass builds a distribution-aware embedding per feature, then a row-wise pass classifies
+- **[tabicl-regressor-pipeline](https://github.com/kurtvalcorza/tabicl-regressor-pipeline)** — the TabICLv2 regressor, fine-tuned through `FinetunedTabICLRegressor` with a pinball/quantile loss and validation-based selection
 - **[notebooks](https://github.com/kurtvalcorza/notebooks)** — ready-to-run Colab speech & ML experiments (ASR, diarization, TTS)
 
 #### 🧰 Web apps & tools
