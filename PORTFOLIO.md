@@ -67,7 +67,7 @@ Audit date: **2026-09-04**. Scope: repositories visible through the connected Gi
 
 ### Archived
 
-Archived 2026-09-04. Read-only; retained for provenance. Not listed on the profile README or the site.
+Archived 2026-09-04. Read-only; retained for provenance. Archived projects are not carried in the profile README or the site portfolio listing.
 
 | Project | Prior state | Notes |
 | --- | --- | --- |

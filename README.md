@@ -15,7 +15,7 @@ Repository lifecycle: **Active** → **Maintained** → **Experimental/Incubatin
 - **inventory-intelligence** — applied inventory intelligence system *(private)*
 - **[litert-lm-plugin-cc](https://github.com/kurtvalcorza/litert-lm-plugin-cc)** — local/on-device LiteRT-LM integration for Claude Code
 - **mlops-grid** — MLOps infrastructure work *(private)*
-- **[MITRA model pipelines](https://github.com/kurtvalcorza/mitra-regressor-pipeline)** — reusable classifier/regressor pipeline, finetuning, and dataset-validation components
+- **Mitra tabular pipelines** — DIMER pipelines fine-tuning the Mitra tabular foundation model: [classifier](https://github.com/kurtvalcorza/mitra-classifier-pipeline) and [regressor](https://github.com/kurtvalcorza/mitra-regressor-pipeline), each shipping a CPU dataset validator and a GPU fine-tuner
 
 #### 🔬 Research & synthesis
 - **[market-study-template](https://github.com/kurtvalcorza/market-study-template)** — a scaffold for structured market research studies: a Quarto book rendering to PDF/DOCX, a TypeScript survey instrument, and pre-specified analysis contracts so the output tables exist *before* any data is collected
