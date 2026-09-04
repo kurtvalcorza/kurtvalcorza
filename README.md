@@ -10,8 +10,7 @@ Repository lifecycle: **Active** → **Maintained** → **Experimental/Incubatin
 
 - **[agentic-vault](https://github.com/kurtvalcorza/agentic-vault)** — agent-agnostic knowledge infrastructure for Obsidian, including graph-aware retrieval, provenance, and multi-agent governance
 - **[agentic-analytics](https://github.com/kurtvalcorza/agentic-analytics)** — MCP-native analytical runtime with reproducible execution and evidence provenance
-- **[agent-relay](https://github.com/kurtvalcorza/agent-relay)** — agent-agnostic coordination protocol for handing work between independent agents: role routing, durable state, and reproducible evidence
-- **agent-router** — agent-agnostic model routing and policy infrastructure *(private)*
+- **Agent infrastructure (`agent-*`)** — host-neutral, independently usable layers for running AI agents under real constraints: [agent-relay](https://github.com/kurtvalcorza/agent-relay) (roles, handoffs, verification), [agent-router](https://github.com/kurtvalcorza/agent-router) (cost-aware model and executor routing), [agent-control](https://github.com/kurtvalcorza/agent-control) (lifecycle, budgets, policy, audit), and [agent-toolchain](https://github.com/kurtvalcorza/agent-toolchain) (distribution across harnesses)
 - **aiaas-market-study** — reproducible AI-as-a-Service market/feasibility research workflow *(private)*
 - **inventory-intelligence** — applied inventory intelligence system *(private)*
 - **[litert-lm-plugin-cc](https://github.com/kurtvalcorza/litert-lm-plugin-cc)** — local/on-device LiteRT-LM integration for Claude Code
@@ -23,10 +22,8 @@ Repository lifecycle: **Active** → **Maintained** → **Experimental/Incubatin
 - **[citation-audit](https://github.com/kurtvalcorza/citation-audit)** — audits a finished reference list against the bibliographic record, catching fabricated, misattributed, and misdirected citations — including identifiers that resolve cleanly to an entirely different paper. Keyless; the calls that change what a document claims stay with the human
 - **[agentic-research](https://github.com/kurtvalcorza/agentic-research)** — 23-skill PRISMA 2020 / GRADE systematic-review pipeline: a *question* → a *defensible synthesis*
 - **[agentic-analytics](https://github.com/kurtvalcorza/agentic-analytics)** — an agent-agnostic, MCP-native analytical runtime: reproducible sandboxed execution with source→execution→evidence provenance and deterministic validation, so an agent's analysis can be re-run and checked instead of taken on trust
-- **[research-writer](https://github.com/kurtvalcorza/research-writer)** — subagent-orchestrated, citation-checked literature-review drafting
 
 #### 📚 Knowledge work
-- **[dost-progress-report](https://github.com/kurtvalcorza/dost-progress-report)** — one Markdown file → a Word progress report in the DOST prescribed format (Forms 6 & 7), with nine checks that catch dropped chapters, stale cross-references, and citation gaps
 - **[keynote-builder](https://github.com/kurtvalcorza/keynote-builder)** — a governed, human-gated pipeline that turns a brief into a stage-ready keynote (slide deck + speaker script)
 - **[office-reports](https://github.com/kurtvalcorza/office-reports)** — agent skills for institutional document drafting: travel reports, minutes, and a weekly → terminal M&E reporting pipeline, evidence-only with gap flags
 - **[presentation-builder](https://github.com/kurtvalcorza/presentation-builder)** — composable skills for finished presentations: Marp, native PPTX, HTML slides, talk scripts
@@ -34,7 +31,6 @@ Repository lifecycle: **Active** → **Maintained** → **Experimental/Incubatin
 - **[agentic-vault](https://github.com/kurtvalcorza/agentic-vault)** — an Obsidian vault template for working *with* AI agents (PARA + multi-agent governance)
 
 #### 🏛️ Applied AI for government & organizations
-- **[acabai-ph](https://github.com/kurtvalcorza/acabai-ph)** — the DOST-ASTI showcase site for the Philippines' national AI initiatives (NAIRA, DIMER, iTANONG), with an embedded chatbot and automatic failover
 - **[ai-readiness-assessment](https://github.com/kurtvalcorza/ai-readiness-assessment)** — an AI-readiness assessment chatbot for Philippine government agencies & NGOs
 
 #### ⚙️ ML infrastructure & experiments
@@ -47,8 +43,7 @@ Repository lifecycle: **Active** → **Maintained** → **Experimental/Incubatin
 - **[notebooks](https://github.com/kurtvalcorza/notebooks)** — ready-to-run Colab speech & ML experiments (ASR, diarization, TTS)
 
 #### 🧰 Web apps & tools
-- **[agent-relay](https://github.com/kurtvalcorza/agent-relay)** — a coordination skill for handing work between independent AI agents or sessions: five roles (builder, reviewer, executor, verifier, integrator) routed automatically from the task and live workflow state, with durable artifacts standing in for shared memory and a verifier gate before anything is called done
-- **[wsl-crew](https://github.com/kurtvalcorza/wsl-crew)** — a Windows tray app that keeps WSL2-hosted services alive: survives idle shutdowns, re-points portproxy rules when the distro IP changes on reboot, and turns the commands you'd otherwise re-Google into one-click repairs
+- **Agent infrastructure (`agent-*`)** — four independently usable layers for running AI agents under real constraints: [agent-relay](https://github.com/kurtvalcorza/agent-relay) hands work between agents through durable artifacts and a verifier gate; [agent-router](https://github.com/kurtvalcorza/agent-router) routes each subtask to the cheapest executor that can satisfy it, then escalates on failed verification; [agent-control](https://github.com/kurtvalcorza/agent-control) owns lifecycle, budgets, policy, and an append-only audit trail; [agent-toolchain](https://github.com/kurtvalcorza/agent-toolchain) *(in progress)* installs and validates all of it across harnesses
 - **[pdf-signer-pwa](https://github.com/kurtvalcorza/pdf-signer-pwa)** — private, offline PKCS#12 PDF signing that never leaves your device
 
 ![](https://komarev.com/ghpvc/?username=kurtvalcorza&style=pixel)

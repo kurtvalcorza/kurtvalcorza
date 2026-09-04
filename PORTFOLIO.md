@@ -16,16 +16,15 @@ This document is the maintenance layer behind the public profile README. It exis
 
 ## Current portfolio audit
 
-Audit date: **2026-08-21**. Scope: repositories visible through the connected GitHub account. This classification is intentionally conservative: it does not archive, delete, rename, or consolidate repositories automatically.
+Audit date: **2026-09-04**. Scope: repositories visible through the connected GitHub account. This classification is intentionally conservative: it does not archive, delete, rename, or consolidate repositories automatically.
 
 ### Active
 
 | Project / family | Notes |
 | --- | --- |
-| `agent-relay` | Agent-agnostic multi-agent coordination protocol and skill |
+| `agent-*` | Agent infrastructure family: `agent-relay`, `agent-router`, `agent-control`, `agent-toolchain`. All public; each independently usable |
 | `agentic-vault` | Agent-agnostic knowledge infrastructure / Obsidian vault system |
 | `agentic-analytics` | Agent-agnostic analytical runtime |
-| `agent-router` | Model-routing infrastructure; private |
 | `aiaas-market-study` | Current AIaaS market/feasibility study; private |
 | `inventory-intelligence` | Applied inventory intelligence system; private |
 | `litert-lm-plugin-cc` | On-device/local-model tooling |
@@ -38,10 +37,8 @@ Audit date: **2026-08-21**. Scope: repositories visible through the connected Gi
 | --- | --- |
 | `agentic-research` | Systematic-review skill pipeline |
 | `ai-readiness-assessment` | Public AI-readiness assessment |
-| `acabai-ph` | Public DOST-ASTI showcase/site |
 | `benchmarking-harness` | Model evaluation harness |
 | `citation-audit` | Citation verification tool |
-| `dost-progress-report` | DOST report-generation workflow |
 | `inference-bench` | Hardware/model inference benchmarking |
 | `keynote-builder` | Governed keynote-generation workflow |
 | `market-study-template` | Reusable market-study scaffold |
@@ -51,8 +48,6 @@ Audit date: **2026-08-21**. Scope: repositories visible through the connected Gi
 | `pdf-signer-pwa` | Offline PDF-signing utility |
 | `presentation-builder` | General presentation-building skills |
 | `research-deck-builder` | Research/training deck workflow |
-| `research-writer` | Citation-checked literature-review drafting |
-| `wsl-crew` | WSL2 service-management utility |
 | `kurtvalcorza.github.io` | Personal site |
 | `kurtvalcorza` | Profile/portfolio control surface |
 
@@ -60,12 +55,8 @@ Audit date: **2026-08-21**. Scope: repositories visible through the connected Gi
 
 | Project / family | Notes |
 | --- | --- |
-| `ai-readiness-bot` | Private adjacent implementation; evaluate overlap with `ai-readiness-assessment` |
-| `aiaas-marketability` | Earlier/private marketability work; evaluate overlap with `aiaas-market-study` |
-| `naira-market-analysis` | Earlier/private market-analysis work; evaluate whether superseded by the current study |
 | `naira-narrative-report` | Private reporting project; retain until project-cycle status is clear |
 | `naicri-deck-generator` | Private event/deck-specific generator |
-| `opus-fable-mode` | Private experiment |
 | `tabpfn-*` | Classifier/regressor component family; six repos |
 | `tabicl-*` | Classifier/regressor component family; six repos |
 | `chronos-forecasting-*` | Three-repo forecasting scaffold; currently empty in repository metadata |
@@ -74,16 +65,29 @@ Audit date: **2026-08-21**. Scope: repositories visible through the connected Gi
 | `prithvi-eo-regression-*` | Three-repo EO regression scaffold; currently empty in repository metadata |
 | `prithvi-eo-segmentation-*` | Three-repo EO segmentation scaffold; currently empty in repository metadata |
 
+### Archived
+
+Archived 2026-09-04. Read-only; retained for provenance. Not listed on the profile README or the site.
+
+| Project | Prior state | Notes |
+| --- | --- | --- |
+| `acabai-ph` | Maintained | Public DOST-ASTI showcase site (NAIRA, DIMER, iTANONG) |
+| `dost-progress-report` | Maintained | DOST report-generation workflow |
+| `research-writer` | Maintained | Citation-checked literature-review drafting |
+| `wsl-crew` | Maintained | WSL2 service-management utility |
+| `ai-readiness-bot` | Experimental | Private; superseded by `ai-readiness-assessment` |
+| `aiaas-marketability` | Experimental | Private; superseded by `aiaas-market-study` |
+| `naira-market-analysis` | Experimental | Private; superseded by `aiaas-market-study` |
+| `opus-fable-mode` | Experimental | Private experiment |
+
 ### Archive / consolidation review candidates
 
 These are **review candidates, not automatic actions**.
 
-1. **`aiaas-marketability` and `naira-market-analysis`** — determine whether they are superseded by `aiaas-market-study`. If they are historical source material, archive them rather than deleting them.
-2. **`ai-readiness-bot`** — determine whether it is a distinct product or an earlier/private implementation of `ai-readiness-assessment`.
-3. **`naicri-deck-generator`** — if tied to a completed event and no longer reusable, archive after confirming there is no ongoing maintenance need.
-4. **Empty model scaffolds** — `chronos-*`, `timesfm-*`, `language-model-*`, and `prithvi-*` currently report zero repository size. Decide whether each family is an intentional near-term roadmap item; otherwise archive the empty scaffolds until work resumes.
-5. **Tabular-model component families** — `tabpfn-*` and `tabicl-*` contain six repositories each. Keep them separate only if pipeline, finetuner, and validator components are independently versioned/consumed; otherwise evaluate a family monorepo.
-6. **MITRA component family** — currently active and populated. Preserve the existing split for now; revisit consolidation only if cross-repo coordination becomes the dominant maintenance cost.
+1. **`naicri-deck-generator`** — if tied to a completed event and no longer reusable, archive after confirming there is no ongoing maintenance need.
+2. **Empty model scaffolds** — `chronos-*`, `timesfm-*`, `language-model-*`, and `prithvi-*` currently report zero repository size. Decide whether each family is an intentional near-term roadmap item; otherwise archive the empty scaffolds until work resumes.
+3. **Tabular-model component families** — `tabpfn-*` and `tabicl-*` contain six repositories each. Keep them separate only if pipeline, finetuner, and validator components are independently versioned/consumed; otherwise evaluate a family monorepo.
+4. **MITRA component family** — currently active and populated. Preserve the existing split for now; revisit consolidation only if cross-repo coordination becomes the dominant maintenance cost.
 
 ## Repository families
 
@@ -91,7 +95,7 @@ GitHub personal repositories have no folder hierarchy, so repository names act a
 
 | Namespace | Portfolio meaning |
 | --- | --- |
-| `agent-*` | Agent coordination and routing infrastructure |
+| `agent-*` | Agent runtime infrastructure: relay, routing, control, distribution |
 | `agentic-*` | Agent infrastructure and agent-native workflows |
 | `mlops-*` | ML platform / operations infrastructure |
 | `mitra-*` | MITRA classifier and regressor ecosystem |
@@ -138,7 +142,7 @@ If **yes**, a separate repo is defensible. If **no**, consolidation should be ev
 
 The audit surfaced several low-cost consistency items for later review:
 
-- Some established repositories still use `master` (`acabai-ph`, `agentic-vault`, `ai-readiness-bot`, `mlops-lite`, `naicri-deck-generator`, `naira-narrative-report`). This is not a blocker; normalize only when there is a practical reason.
+- Some established repositories still use `master` (`agentic-vault`, `mlops-lite`, `naicri-deck-generator`, `naira-narrative-report`). This is not a blocker; normalize only when there is a practical reason. `acabai-ph` and `ai-readiness-bot` also use `master` but are archived, so the question is moot for them.
 - Some model families mix public and private visibility (for example, Chronos and Prithvi EO regression). Confirm whether that split is intentional before publishing or consolidating family-level work.
 - Empty scaffold families contribute substantial visual repository count without adding current operational capability. Their value should be judged by roadmap intent, not by the sunk cost of having created them.
 
