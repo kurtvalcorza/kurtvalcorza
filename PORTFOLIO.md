@@ -37,7 +37,6 @@ Audit date: **2026-09-04**. Scope: repositories visible through the connected Gi
 | --- | --- |
 | `agentic-research` | Systematic-review skill pipeline |
 | `ai-readiness-assessment` | Public AI-readiness assessment |
-| `benchmarking-harness` | Model evaluation harness |
 | `citation-audit` | Citation verification tool |
 | `keynote-builder` | Governed keynote-generation workflow |
 | `market-study-template` | Reusable market-study scaffold |
@@ -71,6 +70,7 @@ Archived 2026-09-04. Read-only; retained for provenance. Archived projects are n
 | Project | Prior state | Notes |
 | --- | --- | --- |
 | `acabai-ph` | Maintained | Public DOST-ASTI showcase site (NAIRA, DIMER, iTANONG) |
+| `benchmarking-harness` | Maintained | Three-tier evaluation gate for computer-vision models |
 | `dost-progress-report` | Maintained | DOST report-generation workflow |
 | `inference-bench` | Maintained | MLPerf/TensorRT inference and GPU/CPU hardware benchmarking |
 | `research-writer` | Maintained | Citation-checked literature-review drafting |
