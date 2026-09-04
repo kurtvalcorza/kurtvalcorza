@@ -39,7 +39,6 @@ Audit date: **2026-09-04**. Scope: repositories visible through the connected Gi
 | `ai-readiness-assessment` | Public AI-readiness assessment |
 | `benchmarking-harness` | Model evaluation harness |
 | `citation-audit` | Citation verification tool |
-| `inference-bench` | Hardware/model inference benchmarking |
 | `keynote-builder` | Governed keynote-generation workflow |
 | `market-study-template` | Reusable market-study scaffold |
 | `mlops-lite` | Single-GPU MLOps platform |
@@ -73,6 +72,7 @@ Archived 2026-09-04. Read-only; retained for provenance. Archived projects are n
 | --- | --- | --- |
 | `acabai-ph` | Maintained | Public DOST-ASTI showcase site (NAIRA, DIMER, iTANONG) |
 | `dost-progress-report` | Maintained | DOST report-generation workflow |
+| `inference-bench` | Maintained | MLPerf/TensorRT inference and GPU/CPU hardware benchmarking |
 | `research-writer` | Maintained | Citation-checked literature-review drafting |
 | `wsl-crew` | Maintained | WSL2 service-management utility |
 | `ai-readiness-bot` | Experimental | Private; superseded by `ai-readiness-assessment` |
