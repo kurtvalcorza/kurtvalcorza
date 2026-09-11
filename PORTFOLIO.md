@@ -16,7 +16,7 @@ This document is the maintenance layer behind the public profile README. It exis
 
 ## Current portfolio audit
 
-Audit date: **2026-09-04**. Scope: repositories visible through the connected GitHub account. This classification is intentionally conservative: it does not archive, delete, rename, or consolidate repositories automatically.
+Audit date: **2026-09-11**. Scope: **public repositories only**. Private repositories are deliberately not tracked, named, or described in this file; a private project enters the inventory when it becomes public. This classification is intentionally conservative: it does not archive, delete, rename, or consolidate repositories automatically.
 
 ### Active
 
@@ -25,11 +25,8 @@ Audit date: **2026-09-04**. Scope: repositories visible through the connected Gi
 | `agent-*` | Agent infrastructure family: `agent-relay`, `agent-router`, `agent-control`, `agent-toolchain`. All public; each independently usable |
 | `agentic-vault` | Agent-agnostic knowledge infrastructure / Obsidian vault system |
 | `agentic-analytics` | Agent-agnostic analytical runtime |
-| `aiaas-market-study` | Current AIaaS market/feasibility study; private |
-| `inventory-intelligence` | Applied inventory intelligence system; private |
+| DIMER model pipelines | Model integrations for the DIMER platform, treated as one family: `mitra-*`, `tabicl-*`, `tabpfn-*`, `tabdpt-*` (tabular), `swin-*` and `siglip2-*` (vision), `chronos-2-*` and `moment-*` (time series), `language-model-pipeline` (language). One shared contract across all of them — pinned model revision, checksum-verified weights, validation before inference, machine-readable provenance |
 | `litert-lm-plugin-cc` | On-device/local-model tooling |
-| `mlops-grid` | Current MLOps infrastructure work; private |
-| `mitra-*` | Treat classifier/regressor pipeline, finetuner, and validator repos as one active family |
 
 ### Maintained
 
@@ -53,19 +50,11 @@ Audit date: **2026-09-04**. Scope: repositories visible through the connected Gi
 
 | Project / family | Notes |
 | --- | --- |
-| `naira-narrative-report` | Private reporting project; retain until project-cycle status is clear |
-| `naicri-deck-generator` | Private event/deck-specific generator |
-| `tabpfn-*` | Classifier/regressor component family; six repos |
-| `tabicl-*` | Classifier/regressor component family; six repos |
-| `chronos-forecasting-*` | Three-repo forecasting scaffold; currently empty in repository metadata |
-| `timesfm-forecasting-*` | Three-repo forecasting scaffold; currently empty in repository metadata |
-| `language-model-*` | Three-repo language-model scaffold; currently empty in repository metadata |
-| `prithvi-eo-regression-*` | Three-repo EO regression scaffold; currently empty in repository metadata |
-| `prithvi-eo-segmentation-*` | Three-repo EO segmentation scaffold; currently empty in repository metadata |
+| Empty pipeline scaffolds | Seven public repositories created but not yet implemented (each at or below 3 KB): `prithvi-eo-segmentation-pipeline`, `prithvi-eo-regression-pipeline`, `timesfm-forecasting-pipeline`, `tirex-forecasting-pipeline`, `toto-forecasting-pipeline`, `whisper-asr-pipeline`, `phi4-multimodal-pipeline`. Public but empty; not carried on the profile README or the site portfolio until they ship |
 
 ### Archived
 
-Archived 2026-09-04. Read-only; retained for provenance. Archived projects are not carried in the profile README or the site portfolio listing.
+Read-only; retained for provenance. Archived projects are not carried in the profile README or the site portfolio listing. Archived private repositories are out of scope for this file and are not listed.
 
 | Project | Prior state | Notes |
 | --- | --- | --- |
@@ -75,19 +64,14 @@ Archived 2026-09-04. Read-only; retained for provenance. Archived projects are n
 | `inference-bench` | Maintained | MLPerf/TensorRT inference and GPU/CPU hardware benchmarking |
 | `research-writer` | Maintained | Citation-checked literature-review drafting |
 | `wsl-crew` | Maintained | WSL2 service-management utility |
-| `ai-readiness-bot` | Experimental | Private; superseded by `ai-readiness-assessment` |
-| `aiaas-marketability` | Experimental | Private; superseded by `aiaas-market-study` |
-| `naira-market-analysis` | Experimental | Private; superseded by `aiaas-market-study` |
-| `opus-fable-mode` | Experimental | Private experiment |
 
 ### Archive / consolidation review candidates
 
 These are **review candidates, not automatic actions**.
 
-1. **`naicri-deck-generator`** — if tied to a completed event and no longer reusable, archive after confirming there is no ongoing maintenance need.
-2. **Empty model scaffolds** — `chronos-*`, `timesfm-*`, `language-model-*`, and `prithvi-*` currently report zero repository size. Decide whether each family is an intentional near-term roadmap item; otherwise archive the empty scaffolds until work resumes.
-3. **Tabular-model component families** — `tabpfn-*` and `tabicl-*` contain six repositories each. Keep them separate only if pipeline, finetuner, and validator components are independently versioned/consumed; otherwise evaluate a family monorepo.
-4. **MITRA component family** — currently active and populated. Preserve the existing split for now; revisit consolidation only if cross-repo coordination becomes the dominant maintenance cost.
+1. **Empty public scaffolds** — seven pipeline repositories are public with no implementation. Public-but-empty repositories carry a reputational cost that private-but-empty ones do not: a visitor cannot distinguish a placeholder from an abandoned project. Either implement, make private until implemented, or archive.
+2. **Tabular-model component families** — `mitra-*` and `tabicl-*` carry six repositories each (pipeline, finetuner, dataset validator, per task), while `tabpfn-*` and `tabdpt-*` carry two. Keep the six-repo split only where pipeline, finetuner, and validator are independently versioned and consumed; otherwise evaluate a family monorepo.
+3. **Pipeline-family visibility is uneven** — some families publish all component repositories, others publish only the contract repository. That is a defensible choice, but it should be a stated one rather than an accident of when each repository was created.
 
 ## Repository families
 
@@ -98,13 +82,9 @@ GitHub personal repositories have no folder hierarchy, so repository names act a
 | `agent-*` | Agent runtime infrastructure: relay, routing, control, distribution |
 | `agentic-*` | Agent infrastructure and agent-native workflows |
 | `mlops-*` | ML platform / operations infrastructure |
-| `mitra-*` | MITRA classifier and regressor ecosystem |
-| `tabpfn-*` | TabPFN model pipeline ecosystem |
-| `tabicl-*` | TabICL model pipeline ecosystem |
-| `chronos-*` | Chronos forecasting ecosystem |
-| `timesfm-*` | TimesFM forecasting ecosystem |
-| `prithvi-*` | Prithvi Earth-observation ecosystem |
-| `naira-*` | NAIRA-specific work products |
+| `mitra-*`, `tabicl-*`, `tabpfn-*`, `tabdpt-*` | Tabular foundation-model pipelines |
+| `swin-*`, `siglip2-*`, `prithvi-*` | Vision and Earth-observation pipelines |
+| `chronos-*`, `moment-*`, `timesfm-*`, `tirex-*`, `toto-*` | Time-series forecasting pipelines |
 | `research-*` | Research and research-communication tooling |
 
 Do not rename stable repositories merely to make the taxonomy perfect. Namespace consistency is useful when it reduces search and navigation cost.
@@ -129,6 +109,7 @@ If **yes**, a separate repo is defensible. If **no**, consolidation should be ev
 
 ## Portfolio operating rules
 
+- This file tracks **public repositories only**. Do not add, name, or describe a private repository here; wait until it is public.
 - Keep **Active** to roughly 5–10 projects or families.
 - Treat a repository family as one cognitive project when its component repos serve one product/system.
 - Do not create a repository for an idea that has no implementation boundary yet; use an issue/spec in the parent project first.
@@ -142,9 +123,9 @@ If **yes**, a separate repo is defensible. If **no**, consolidation should be ev
 
 The audit surfaced several low-cost consistency items for later review:
 
-- Some established repositories still use `master` (`agentic-vault`, `mlops-lite`, `naicri-deck-generator`, `naira-narrative-report`). This is not a blocker; normalize only when there is a practical reason. `acabai-ph` and `ai-readiness-bot` also use `master` but are archived, so the question is moot for them.
-- Some model families mix public and private visibility (for example, Chronos and Prithvi EO regression). Confirm whether that split is intentional before publishing or consolidating family-level work.
-- Empty scaffold families contribute substantial visual repository count without adding current operational capability. Their value should be judged by roadmap intent, not by the sunk cost of having created them.
+- Some established repositories still use `master` (`agentic-vault`, `mlops-lite`). This is not a blocker; normalize only when there is a practical reason. `acabai-ph` also uses `master` but is archived, so the question is moot for it.
+- Most newly public pipeline repositories carry no GitHub description. The description is the only text a visitor sees in search results and on the profile's repository tab, so an empty one costs more than it saves.
+- Empty scaffold repositories contribute substantial visible repository count without adding current operational capability. Their value should be judged by roadmap intent, not by the sunk cost of having created them.
 
 ## Review cadence
 
