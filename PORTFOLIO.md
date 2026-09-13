@@ -16,7 +16,7 @@ This document is the maintenance layer behind the public profile README. It exis
 
 ## Current portfolio audit
 
-Audit date: **2026-09-13**. Scope: **public repositories only**. Private repositories are deliberately not tracked, named, or described in this file; a private project enters the inventory when it becomes public. This classification is intentionally conservative: it does not archive, delete, rename, or consolidate repositories automatically.
+Audit date: **2026-09-13**. Scope: **public repositories only**. Private repositories are deliberately not tracked, named, or described in this file; a private project enters the inventory when it becomes public, and leaves it when it stops being public. One Maintained repository left the inventory on 2026-09-13 on that basis. This classification is intentionally conservative: it does not archive, delete, rename, or consolidate repositories automatically.
 
 ### Active
 
@@ -38,7 +38,6 @@ Audit date: **2026-09-13**. Scope: **public repositories only**. Private reposit
 | `keynote-builder` | Governed keynote-generation workflow |
 | `market-study-template` | Reusable market-study scaffold |
 | `mlops-lite` | Single-GPU MLOps platform |
-| `notebooks` | Reusable Colab experiments |
 | `office-reports` | Institutional reporting skills |
 | `pdf-signer-pwa` | Offline PDF-signing utility |
 | `presentation-builder` | General presentation-building skills |
@@ -116,6 +115,7 @@ If **yes**, a separate repo is defensible. If **no**, consolidation should be ev
 - Archive completed/superseded work rather than leaving it indistinguishable from active work.
 - Do not delete historical repositories unless they contain no useful provenance and deletion is intentional.
 - Review visibility consistency inside repository families before making a family public.
+- When a repository is made private, remove it from this file, the profile README, and the site portfolio in the same change; a link a visitor cannot open is worse than no link.
 - Prefer `main` for new repositories; do not rename established default branches solely for cosmetic consistency.
 - Review this file quarterly or after a major project cycle and update `README.md` when the active set changes.
 
