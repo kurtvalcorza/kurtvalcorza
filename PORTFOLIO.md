@@ -16,7 +16,7 @@ This document is the maintenance layer behind the public profile README. It exis
 
 ## Current portfolio audit
 
-Audit date: **2026-09-11**. Scope: **public repositories only**. Private repositories are deliberately not tracked, named, or described in this file; a private project enters the inventory when it becomes public. This classification is intentionally conservative: it does not archive, delete, rename, or consolidate repositories automatically.
+Audit date: **2026-09-13**. Scope: **public repositories only**. Private repositories are deliberately not tracked, named, or described in this file; a private project enters the inventory when it becomes public. This classification is intentionally conservative: it does not archive, delete, rename, or consolidate repositories automatically.
 
 ### Active
 
@@ -25,7 +25,7 @@ Audit date: **2026-09-11**. Scope: **public repositories only**. Private reposit
 | `agent-*` | Agent infrastructure family: `agent-relay`, `agent-router`, `agent-control`, `agent-toolchain`. All public; each independently usable |
 | `agentic-vault` | Agent-agnostic knowledge infrastructure / Obsidian vault system |
 | `agentic-analytics` | Agent-agnostic analytical runtime |
-| DIMER model pipelines | Model integrations for the DIMER platform, treated as one family: `mitra-*`, `tabicl-*`, `tabpfn-*`, `tabdpt-*` (tabular), `swin-*` and `siglip2-*` (vision), `chronos-2-*` and `moment-*` (time series), `language-model-pipeline` (language). One shared contract across all of them — pinned model revision, checksum-verified weights, validation before inference, machine-readable provenance |
+| DIMER model pipelines | Model integrations for the DIMER platform, treated as one family and now the largest part of the public portfolio. Tabular (`mitra-*`, `tabicl-*`, `tabpfn-*`, `tabdpt-*`), vision (`swin-*`, `sam*-*`, `grounding-dino-*`, `depth-anything-*`, `dinov2-*`, `swin2sr-*`, `eva02-*`, `convnext-*`, `resnet50-*`, `mobilenetv4-*`), vision-language (`siglip2-*`, `florence2-*`, `smolvlm-*`), time series (`chronos-2-*`, `tirex-*`, `toto-*`, `moment-*`), audio and multimodal (`whisper-*`, `ast-*`, `kokoro-*`, `phi4-*`), and language (`language-model-*`, `bert-*`, `gpt2-*`, `t5-*`, `gliner-*`, `qwen3-*`). One shared contract throughout — pinned model revision, checksum-verified weights, validation before inference, machine-readable provenance, and a model card per repository. Maturity is recorded per repository in its own `STATUS.md`, not here |
 | `litert-lm-plugin-cc` | On-device/local-model tooling |
 
 ### Maintained
@@ -50,7 +50,7 @@ Audit date: **2026-09-11**. Scope: **public repositories only**. Private reposit
 
 | Project / family | Notes |
 | --- | --- |
-| Empty pipeline scaffolds | Seven public repositories created but not yet implemented (each at or below 3 KB): `prithvi-eo-segmentation-pipeline`, `prithvi-eo-regression-pipeline`, `timesfm-forecasting-pipeline`, `tirex-forecasting-pipeline`, `toto-forecasting-pipeline`, `whisper-asr-pipeline`, `phi4-multimodal-pipeline`. Public but empty; not carried on the profile README or the site portfolio until they ship |
+| Empty pipeline scaffolds | Three public repositories created but still not implemented: `prithvi-eo-segmentation-pipeline`, `prithvi-eo-regression-pipeline`, `timesfm-forecasting-pipeline`. Public but empty; not carried on the profile README or the site portfolio until they ship. Four others flagged here on 2026-09-11 (`whisper-asr-*`, `tirex-*`, `toto-*`, `phi4-*`) have since shipped and moved into the DIMER family |
 
 ### Archived
 
@@ -69,7 +69,7 @@ Read-only; retained for provenance. Archived projects are not carried in the pro
 
 These are **review candidates, not automatic actions**.
 
-1. **Empty public scaffolds** — seven pipeline repositories are public with no implementation. Public-but-empty repositories carry a reputational cost that private-but-empty ones do not: a visitor cannot distinguish a placeholder from an abandoned project. Either implement, make private until implemented, or archive.
+1. **Empty public scaffolds** — three pipeline repositories are public with no implementation. Public-but-empty repositories carry a reputational cost that private-but-empty ones do not: a visitor cannot distinguish a placeholder from an abandoned project. Either implement, make private until implemented, or archive.
 2. **Tabular-model component families** — `mitra-*` and `tabicl-*` carry six repositories each (pipeline, finetuner, dataset validator, per task), while `tabpfn-*` and `tabdpt-*` carry two. Keep the six-repo split only where pipeline, finetuner, and validator are independently versioned and consumed; otherwise evaluate a family monorepo.
 3. **Pipeline-family visibility is uneven** — some families publish all component repositories, others publish only the contract repository. That is a defensible choice, but it should be a stated one rather than an accident of when each repository was created.
 
@@ -124,7 +124,8 @@ If **yes**, a separate repo is defensible. If **no**, consolidation should be ev
 The audit surfaced several low-cost consistency items for later review:
 
 - Some established repositories still use `master` (`agentic-vault`, `mlops-lite`). This is not a blocker; normalize only when there is a practical reason. `acabai-ph` also uses `master` but is archived, so the question is moot for it.
-- Most newly public pipeline repositories carry no GitHub description. The description is the only text a visitor sees in search results and on the profile's repository tab, so an empty one costs more than it saves.
+- Many pipeline repositories still carry no GitHub description, though the batch created on 2026-09-13 mostly does. The description is the only text a visitor sees in search results and on the profile's repository tab, so an empty one costs more than it saves.
+- Repository `size` reported by the GitHub API is not computed immediately for newly created repositories, so it cannot be used to tell an empty scaffold from a populated one within hours of creation. Check the file tree instead.
 - Empty scaffold repositories contribute substantial visible repository count without adding current operational capability. Their value should be judged by roadmap intent, not by the sunk cost of having created them.
 
 ## Review cadence
