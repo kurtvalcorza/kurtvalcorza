@@ -25,7 +25,7 @@ Audit date: **2026-09-13**. Scope: **public repositories only**. Private reposit
 | `agent-*` | Agent infrastructure family: `agent-relay`, `agent-router`, `agent-control`, `agent-toolchain`. All public; each independently usable |
 | `agentic-vault` | Agent-agnostic knowledge infrastructure / Obsidian vault system |
 | `agentic-analytics` | Agent-agnostic analytical runtime |
-| DIMER model pipelines | Model integrations for the DIMER platform, treated as one family and now the largest part of the public portfolio. Tabular (`mitra-*`, `tabicl-*`, `tabpfn-*`, `tabdpt-*`), vision (`swin-*`, `sam*-*`, `grounding-dino-*`, `depth-anything-*`, `dinov2-*`, `swin2sr-*`, `eva02-*`, `convnext-*`, `resnet50-*`, `mobilenetv4-*`), vision-language (`siglip2-*`, `florence2-*`, `smolvlm-*`), time series (`chronos-2-*`, `tirex-*`, `toto-*`, `moment-*`), audio and multimodal (`whisper-*`, `ast-*`, `kokoro-*`, `phi4-*`), and language (`language-model-*`, `bert-*`, `gpt2-*`, `t5-*`, `gliner-*`, `qwen3-*`). One shared contract throughout — pinned model revision, checksum-verified weights, validation before inference, machine-readable provenance, and a model card per repository. Maturity is recorded per repository in its own `STATUS.md`, not here |
+| DIMER model pipelines | Model integrations for the DIMER platform, treated as one family and now the largest part of the public portfolio. Tabular (`mitra-*`, `tabicl-*`, `tabpfn-*`, `tabdpt-*`), vision (`swin-*`, `sam*-*`, `grounding-dino-*`, `depth-anything-*`, `dinov2-*`, `swin2sr-*`, `eva02-*`, `convnext-*`, `resnet50-*`, `mobilenetv4-*`, `vit-*`), vision-language (`siglip2-*`, `florence2-*`, `smolvlm-*`), time series (`chronos-2-*`, `tirex-*`, `toto-*`, `moment-*`), audio and multimodal (`whisper-*`, `ast-*`, `kokoro-*`, `phi4-*`), and language (`language-model-*`, `bert-*`, `gpt2-*`, `t5-*`, `gliner-*`, `qwen3-*`) including the text-task pipelines `roberta-*`, `tapas-*`, `bart-*`, and `marianmt-*`. One shared contract throughout — pinned model revision, checksum-verified weights, validation before inference, machine-readable provenance, and a model card per repository. Maturity is recorded per repository in its own `STATUS.md`, not here |
 | `litert-lm-plugin-cc` | On-device/local-model tooling |
 
 ### Maintained
@@ -84,6 +84,7 @@ GitHub personal repositories have no folder hierarchy, so repository names act a
 | `mitra-*`, `tabicl-*`, `tabpfn-*`, `tabdpt-*` | Tabular foundation-model pipelines |
 | `swin-*`, `siglip2-*`, `prithvi-*` | Vision and Earth-observation pipelines |
 | `chronos-*`, `moment-*`, `timesfm-*`, `tirex-*`, `toto-*` | Time-series forecasting pipelines |
+| `bart-*`, `roberta-*`, `tapas-*`, `marianmt-*` | Language task pipelines: summarization, QA, zero-shot classification, translation |
 | `research-*` | Research and research-communication tooling |
 
 Do not rename stable repositories merely to make the taxonomy perfect. Namespace consistency is useful when it reduces search and navigation cost.
