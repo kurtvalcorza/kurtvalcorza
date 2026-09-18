@@ -16,7 +16,7 @@ This document is the maintenance layer behind the public profile README. It exis
 
 ## Current portfolio audit
 
-Audit date: **2026-09-13**. Scope: **public repositories only**. Private repositories are deliberately not tracked, named, or described in this file; a private project enters the inventory when it becomes public, and leaves it when it stops being public. One Maintained repository left the inventory on 2026-09-13 on that basis. This classification is intentionally conservative: it does not archive, delete, rename, or consolidate repositories automatically.
+Audit date: **2026-09-18**. Scope: **public repositories only**. Private repositories are deliberately not tracked, named, or described in this file; a private project enters the inventory when it becomes public, and leaves it when it stops being public. One Maintained repository left the inventory on 2026-09-13 on that basis. Twenty-one DIMER pipelines shipped between 2026-09-13 and 2026-09-15 and entered the inventory on 2026-09-18, opening two coverage areas the portfolio did not have before: document AI and OCR, and a detection family beyond the single zero-shot detector. This classification is intentionally conservative: it does not archive, delete, rename, or consolidate repositories automatically.
 
 ### Active
 
@@ -25,7 +25,7 @@ Audit date: **2026-09-13**. Scope: **public repositories only**. Private reposit
 | `agent-*` | Agent infrastructure family: `agent-relay`, `agent-router`, `agent-control`, `agent-toolchain`. All public; each independently usable |
 | `agentic-vault` | Agent-agnostic knowledge infrastructure / Obsidian vault system |
 | `agentic-analytics` | Agent-agnostic analytical runtime |
-| DIMER model pipelines | Model integrations for the DIMER platform, treated as one family and now the largest part of the public portfolio. Tabular (`mitra-*`, `tabicl-*`, `tabpfn-*`, `tabdpt-*`), vision (`swin-*`, `sam*-*`, `grounding-dino-*`, `depth-anything-*`, `dinov2-*`, `swin2sr-*`, `eva02-*`, `convnext-*`, `resnet50-*`, `mobilenetv4-*`, `vit-*`), vision-language (`siglip2-*`, `florence2-*`, `smolvlm-*`), time series (`chronos-2-*`, `tirex-*`, `toto-*`, `moment-*`), audio and multimodal (`whisper-*`, `ast-*`, `kokoro-*`, `phi4-*`), and language (`language-model-*`, `bert-*`, `gpt2-*`, `t5-*`, `gliner-*`, `qwen3-*`) including the text-task pipelines `roberta-*`, `tapas-*`, `bart-*`, and `marianmt-*`. One shared contract throughout — pinned model revision, checksum-verified weights, validation before inference, machine-readable provenance, and a model card per repository. Maturity is recorded per repository in its own `STATUS.md`, not here |
+| DIMER model pipelines | Model integrations for the DIMER platform, treated as one family and now the largest part of the public portfolio. Tabular (`mitra-*`, `tabicl-*`, `tabpfn-*`, `tabdpt-*`), vision (`swin-*`, `sam*-*`, `clipseg-*`, `depth-anything-*`, `zoedepth-*`, `vitpose-*`, `xclip-*`, `dinov2-*`, `swin2sr-*`, `eva02-*`, `convnext-*`, `resnet50-*`, `mobilenetv4-*`, `vit-*`), detection (`grounding-dino-*`, `owlv2-*`, `rtdetr-*`, `yolox-*`), document AI and OCR (`got-ocr2-*`, `smoldocling-*`, `layoutlm-*`, `pix2struct-*`, `table-transformer-*`, `deplot-*`), vision-language (`siglip2-*`, `florence2-*`, `smolvlm-*`, `blip-*`), time series (`chronos-2-*`, `tirex-*`, `toto-*`, `moment-*`), audio and multimodal (`whisper-*`, `ast-*`, `kokoro-*`, `phi4-*`), and language (`language-model-*`, `bert-*`, `gpt2-*`, `t5-*`, `gliner-*`, `qwen3-*`) including the text-task pipelines `roberta-*`, `tapas-*`, `bart-*`, and `marianmt-*`. One shared contract throughout — pinned model revision, checksum-verified weights, validation before inference, machine-readable provenance, and a model card per repository. Maturity is recorded per repository in its own `STATUS.md`, not here |
 | `litert-lm-plugin-cc` | On-device/local-model tooling |
 
 ### Maintained
@@ -82,7 +82,9 @@ GitHub personal repositories have no folder hierarchy, so repository names act a
 | `agentic-*` | Agent infrastructure and agent-native workflows |
 | `mlops-*` | ML platform / operations infrastructure |
 | `mitra-*`, `tabicl-*`, `tabpfn-*`, `tabdpt-*` | Tabular foundation-model pipelines |
-| `swin-*`, `siglip2-*`, `prithvi-*` | Vision and Earth-observation pipelines |
+| `swin-*`, `siglip2-*`, `blip-*`, `prithvi-*` | Vision, vision-language, and Earth-observation pipelines |
+| `grounding-dino-*`, `owlv2-*`, `rtdetr-*`, `yolox-*` | Object-detection pipelines |
+| `got-ocr2-*`, `smoldocling-*`, `layoutlm-*`, `pix2struct-*`, `table-transformer-*`, `deplot-*` | Document AI and OCR pipelines: text recognition, document QA, tables, charts |
 | `chronos-*`, `moment-*`, `timesfm-*`, `tirex-*`, `toto-*` | Time-series forecasting pipelines |
 | `bart-*`, `roberta-*`, `tapas-*`, `marianmt-*` | Language task pipelines: summarization, QA, zero-shot classification, translation |
 | `research-*` | Research and research-communication tooling |
