@@ -16,7 +16,7 @@ This document is the maintenance layer behind the public profile README. It exis
 
 ## Current portfolio audit
 
-Audit date: **2026-09-18**. Scope: **public repositories only**. Private repositories are deliberately not tracked, named, or described in this file; a private project enters the inventory when it becomes public, and leaves it when it stops being public. One Maintained repository left the inventory on 2026-09-13 on that basis. Twenty-one DIMER pipelines shipped between 2026-09-13 and 2026-09-15 and entered the inventory on 2026-09-18, opening two coverage areas the portfolio did not have before: document AI and OCR, and a detection family beyond the single zero-shot detector. This classification is intentionally conservative: it does not archive, delete, rename, or consolidate repositories automatically.
+Audit date: **2026-11-02**. Scope: **public repositories only**. Private repositories are deliberately not tracked, named, or described in this file; a private project enters the inventory when it becomes public, and leaves it when it stops being public. One Maintained repository left the inventory on 2026-09-13 on that basis. Twenty-one DIMER pipelines shipped between 2026-09-13 and 2026-09-15 and entered the inventory on 2026-09-18, opening two coverage areas the portfolio did not have before: document AI and OCR, and a detection family beyond the single zero-shot detector. Forty-four more were created between 2026-09-18 and 2026-10-11 and entered on 2026-11-02, opening four further areas: image and video generation, Earth observation and climate, motion and image matching, and the life and physical sciences. `pdf-signer-pwa` was archived in the same window and moved to Archived. This classification is intentionally conservative: it does not archive, delete, rename, or consolidate repositories automatically.
 
 ### Active
 
@@ -25,7 +25,7 @@ Audit date: **2026-09-18**. Scope: **public repositories only**. Private reposit
 | `agent-*` | Agent infrastructure family: `agent-relay`, `agent-router`, `agent-control`, `agent-toolchain`. All public; each independently usable |
 | `agentic-vault` | Agent-agnostic knowledge infrastructure / Obsidian vault system |
 | `agentic-analytics` | Agent-agnostic analytical runtime |
-| DIMER model pipelines | Model integrations for the DIMER platform, treated as one family and now the largest part of the public portfolio. Tabular (`mitra-*`, `tabicl-*`, `tabpfn-*`, `tabdpt-*`), vision (`swin-*`, `sam*-*`, `clipseg-*`, `depth-anything-*`, `zoedepth-*`, `vitpose-*`, `xclip-*`, `dinov2-*`, `swin2sr-*`, `eva02-*`, `convnext-*`, `resnet50-*`, `mobilenetv4-*`, `vit-*`), detection (`grounding-dino-*`, `owlv2-*`, `rtdetr-*`, `yolox-*`), document AI and OCR (`got-ocr2-*`, `smoldocling-*`, `layoutlm-*`, `pix2struct-*`, `table-transformer-*`, `deplot-*`), vision-language (`siglip2-*`, `florence2-*`, `smolvlm-*`, `blip-*`), time series (`chronos-2-*`, `tirex-*`, `toto-*`, `moment-*`), audio and multimodal (`whisper-*`, `ast-*`, `kokoro-*`, `phi4-*`), and language (`language-model-*`, `bert-*`, `gpt2-*`, `t5-*`, `gliner-*`, `qwen3-*`) including the text-task pipelines `roberta-*`, `tapas-*`, `bart-*`, and `marianmt-*`. One shared contract throughout — pinned model revision, checksum-verified weights, validation before inference, machine-readable provenance, and a model card per repository. Maturity is recorded per repository in its own `STATUS.md`, not here |
+| DIMER model pipelines | Model integrations for the DIMER platform, treated as one family and now the largest part of the public portfolio. Tabular (`mitra-*`, `tabicl-*`, `tabpfn-*`, `tabdpt-*`), vision (`swin-*`, `sam*-*`, `clipseg-*`, `depth-anything-*`, `zoedepth-*`, `vitpose-*`, `xclip-*`, `dinov2-*`, `swin2sr-*`, `eva02-*`, `convnext-*`, `convnextv2-*`, `resnet50-*`, `mobilenetv4-*`, `vit-*`, `deit-*`, `cvt-*`, `maxvit-*`, `efficientnet-*`, `mask2former-*`, `maskrcnn-*`, `modnet-*`, `mediapipe-*`, `nafnet-*`), detection (`grounding-dino-*`, `owlv2-*`, `owlvit-*`, `rtdetr-*`, `yolox-*`, `detr-*`, `conditional-detr-*`, `yolos-*`, `countgd-*`), document AI and OCR (`got-ocr2-*`, `smoldocling-*`, `layoutlm-*`, `pix2struct-*`, `table-transformer-*`, `deplot-*`, `dit-*`), vision-language (`siglip2-*`, `siglip-v1-*`, `florence2-*`, `smolvlm-*`, `blip-*`, `bioclip2-*`, `pubmedclip-*`), generation (`flux-*`, `pixart-*`, `kandinsky-*`, `kandinsky5-*`), Earth observation and climate (`prithvi-*`, `cfnet-*`, `aurora-*`), motion and matching (`raft-*`, `lightglue-*`, `xoftr-*`), life and physical sciences (`esm2-*`, `nucleotide-transformer-*`, `geneformer-*`, `scgpt-*`, `molformer-*`, `mace-*`), time series (`chronos-2-*`, `tirex-*`, `toto-*`, `moment-*`, `timesfm-*`), audio and multimodal (`whisper-*`, `ast-*`, `kokoro-*`, `phi4-*`), and language (`language-model-*`, `bert-*`, `gpt2-*`, `t5-*`, `gliner-*`, `qwen3-*`) including the text-task pipelines `roberta-*`, `tapas-*`, `bart-*`, and `marianmt-*`. One shared contract throughout — pinned model revision, checksum-verified weights, validation before inference, machine-readable provenance, and a model card per repository. Maturity is recorded per repository in its own `STATUS.md`, not here |
 | `litert-lm-plugin-cc` | On-device/local-model tooling |
 
 ### Maintained
@@ -38,10 +38,11 @@ Audit date: **2026-09-18**. Scope: **public repositories only**. Private reposit
 | `keynote-builder` | Governed keynote-generation workflow |
 | `market-study-template` | Reusable market-study scaffold |
 | `mlops-lite` | Single-GPU MLOps platform |
+| `model-dependabot` | Dependency alerts for AI models: weights, packages, base models, datasets |
 | `office-reports` | Institutional reporting skills |
-| `pdf-signer-pwa` | Offline PDF-signing utility |
 | `presentation-builder` | General presentation-building skills |
 | `research-deck-builder` | Research/training deck workflow |
+| `rice-pest-detector` | Teaching demo: light-trap rice-pest counting; not field-validated |
 | `kurtvalcorza.github.io` | Personal site |
 | `kurtvalcorza` | Profile/portfolio control surface |
 
@@ -49,7 +50,7 @@ Audit date: **2026-09-18**. Scope: **public repositories only**. Private reposit
 
 | Project / family | Notes |
 | --- | --- |
-| Empty pipeline scaffolds | Three public repositories created but still not implemented: `prithvi-eo-segmentation-pipeline`, `prithvi-eo-regression-pipeline`, `timesfm-forecasting-pipeline`. Public but empty; not carried on the profile README or the site portfolio until they ship. Four others flagged here on 2026-09-11 (`whisper-asr-*`, `tirex-*`, `toto-*`, `phi4-*`) have since shipped and moved into the DIMER family |
+| `notebook-launcher` | Local service that opens a trusted public notebook in a persistent, Docker-bounded JupyterLab workspace. Control plane largely implemented, but its own README marks the MVP not yet qualified; not carried on the profile README or the site portfolio until it is |
 
 ### Archived
 
@@ -61,6 +62,7 @@ Read-only; retained for provenance. Archived projects are not carried in the pro
 | `benchmarking-harness` | Maintained | Three-tier evaluation gate for computer-vision models |
 | `dost-progress-report` | Maintained | DOST report-generation workflow |
 | `inference-bench` | Maintained | MLPerf/TensorRT inference and GPU/CPU hardware benchmarking |
+| `pdf-signer-pwa` | Maintained | Offline PKCS#12 PDF-signing PWA |
 | `research-writer` | Maintained | Citation-checked literature-review drafting |
 | `wsl-crew` | Maintained | WSL2 service-management utility |
 
@@ -68,7 +70,7 @@ Read-only; retained for provenance. Archived projects are not carried in the pro
 
 These are **review candidates, not automatic actions**.
 
-1. **Empty public scaffolds** — three pipeline repositories are public with no implementation. Public-but-empty repositories carry a reputational cost that private-but-empty ones do not: a visitor cannot distinguish a placeholder from an abandoned project. Either implement, make private until implemented, or archive.
+1. **Empty public scaffolds** — none remain. Of the three flagged on 2026-09-18, `timesfm-forecasting-pipeline` shipped and joined the DIMER family, and `prithvi-eo-segmentation-pipeline` and `prithvi-eo-regression-pipeline` are no longer public. Keep the rule: public-but-empty repositories carry a reputational cost that private-but-empty ones do not, so implement, keep private until implemented, or archive.
 2. **Tabular-model component families** — `mitra-*` and `tabicl-*` carry six repositories each (pipeline, finetuner, dataset validator, per task), while `tabpfn-*` and `tabdpt-*` carry two. Keep the six-repo split only where pipeline, finetuner, and validator are independently versioned and consumed; otherwise evaluate a family monorepo.
 3. **Pipeline-family visibility is uneven** — some families publish all component repositories, others publish only the contract repository. That is a defensible choice, but it should be a stated one rather than an accident of when each repository was created.
 
@@ -84,6 +86,9 @@ GitHub personal repositories have no folder hierarchy, so repository names act a
 | `mitra-*`, `tabicl-*`, `tabpfn-*`, `tabdpt-*` | Tabular foundation-model pipelines |
 | `swin-*`, `siglip2-*`, `blip-*`, `prithvi-*` | Vision, vision-language, and Earth-observation pipelines |
 | `grounding-dino-*`, `owlv2-*`, `rtdetr-*`, `yolox-*` | Object-detection pipelines |
+| `flux-*`, `pixart-*`, `kandinsky*-*` | Image and video generation pipelines |
+| `raft-*`, `lightglue-*`, `xoftr-*` | Optical flow, stereo, and image-matching pipelines |
+| `esm2-*`, `nucleotide-transformer-*`, `geneformer-*`, `scgpt-*`, `molformer-*`, `mace-*` | Life- and physical-science pipelines: proteins, genomics, single-cell, chemistry, materials |
 | `got-ocr2-*`, `smoldocling-*`, `layoutlm-*`, `pix2struct-*`, `table-transformer-*`, `deplot-*` | Document AI and OCR pipelines: text recognition, document QA, tables, charts |
 | `chronos-*`, `moment-*`, `timesfm-*`, `tirex-*`, `toto-*` | Time-series forecasting pipelines |
 | `bart-*`, `roberta-*`, `tapas-*`, `marianmt-*` | Language task pipelines: summarization, QA, zero-shot classification, translation |
