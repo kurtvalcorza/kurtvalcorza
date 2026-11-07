@@ -16,7 +16,7 @@ This document is the maintenance layer behind the public profile README. It exis
 
 ## Current portfolio audit
 
-Audit date: **2026-11-02**. Scope: **public repositories only**. Private repositories are deliberately not tracked, named, or described in this file; a private project enters the inventory when it becomes public, and leaves it when it stops being public. One Maintained repository left the inventory on 2026-09-13 on that basis. Twenty-one DIMER pipelines shipped between 2026-09-13 and 2026-09-15 and entered the inventory on 2026-09-18, opening two coverage areas the portfolio did not have before: document AI and OCR, and a detection family beyond the single zero-shot detector. Forty-four more were created between 2026-09-18 and 2026-10-11 and entered on 2026-11-02, opening four further areas: image and video generation, Earth observation and climate, motion and image matching, and the life and physical sciences. `pdf-signer-pwa` was archived in the same window and moved to Archived. This classification is intentionally conservative: it does not archive, delete, rename, or consolidate repositories automatically.
+Audit date: **2026-11-07**. Scope: **public repositories only**. Private repositories are deliberately not tracked, named, or described in this file; a private project enters the inventory when it becomes public, and leaves it when it stops being public. One Maintained repository left the inventory on 2026-09-13 on that basis. Twenty-one DIMER pipelines shipped between 2026-09-13 and 2026-09-15 and entered the inventory on 2026-09-18, opening two coverage areas the portfolio did not have before: document AI and OCR, and a detection family beyond the single zero-shot detector. Forty-four more were created between 2026-09-18 and 2026-10-11 and entered on 2026-11-02, opening four further areas: image and video generation, Earth observation and climate, motion and image matching, and the life and physical sciences. `pdf-signer-pwa` was archived in the same window and moved to Archived. `mlops-lite` was archived by 2026-11-07 and moved to Archived. This classification is intentionally conservative: it does not archive, delete, rename, or consolidate repositories automatically.
 
 ### Active
 
@@ -37,7 +37,6 @@ Audit date: **2026-11-02**. Scope: **public repositories only**. Private reposit
 | `citation-audit` | Citation verification tool |
 | `keynote-builder` | Governed keynote-generation workflow |
 | `market-study-template` | Reusable market-study scaffold |
-| `mlops-lite` | Single-GPU MLOps platform |
 | `model-dependabot` | Dependency alerts for AI models: weights, packages, base models, datasets |
 | `office-reports` | Institutional reporting skills |
 | `presentation-builder` | General presentation-building skills |
@@ -62,6 +61,7 @@ Read-only; retained for provenance. Archived projects are not carried in the pro
 | `benchmarking-harness` | Maintained | Three-tier evaluation gate for computer-vision models |
 | `dost-progress-report` | Maintained | DOST report-generation workflow |
 | `inference-bench` | Maintained | MLPerf/TensorRT inference and GPU/CPU hardware benchmarking |
+| `mlops-lite` | Maintained | Single-machine, hybrid-GPU local MLOps platform |
 | `pdf-signer-pwa` | Maintained | Offline PKCS#12 PDF-signing PWA |
 | `research-writer` | Maintained | Citation-checked literature-review drafting |
 | `wsl-crew` | Maintained | WSL2 service-management utility |
@@ -131,7 +131,7 @@ If **yes**, a separate repo is defensible. If **no**, consolidation should be ev
 
 The audit surfaced several low-cost consistency items for later review:
 
-- Some established repositories still use `master` (`agentic-vault`, `mlops-lite`). This is not a blocker; normalize only when there is a practical reason. `acabai-ph` also uses `master` but is archived, so the question is moot for it.
+- Some established repositories still use `master` (`agentic-vault`). This is not a blocker; normalize only when there is a practical reason. `acabai-ph` and `mlops-lite` also use `master` but are archived, so the question is moot for them.
 - Many pipeline repositories still carry no GitHub description, though the batch created on 2026-09-13 mostly does. The description is the only text a visitor sees in search results and on the profile's repository tab, so an empty one costs more than it saves.
 - Repository `size` reported by the GitHub API is not computed immediately for newly created repositories, so it cannot be used to tell an empty scaffold from a populated one within hours of creation. Check the file tree instead.
 - Empty scaffold repositories contribute substantial visible repository count without adding current operational capability. Their value should be judged by roadmap intent, not by the sunk cost of having created them.
