@@ -16,7 +16,7 @@ This document is the maintenance layer behind the public profile README. It exis
 
 ## Current portfolio audit
 
-Audit date: **2026-11-07**. Scope: **public repositories only**. Private repositories are deliberately not tracked, named, or described in this file; a private project enters the inventory when it becomes public, and leaves it when it stops being public. One Maintained repository left the inventory on 2026-09-13 on that basis. Twenty-one DIMER pipelines shipped between 2026-09-13 and 2026-09-15 and entered the inventory on 2026-09-18, opening two coverage areas the portfolio did not have before: document AI and OCR, and a detection family beyond the single zero-shot detector. Forty-four more were created between 2026-09-18 and 2026-10-11 and entered on 2026-11-02, opening four further areas: image and video generation, Earth observation and climate, motion and image matching, and the life and physical sciences. `pdf-signer-pwa` was archived in the same window and moved to Archived. `mlops-lite` was archived by 2026-11-07 and moved to Archived. This classification is intentionally conservative: it does not archive, delete, rename, or consolidate repositories automatically.
+Audit date: **2026-11-15**. Scope: **public repositories only**. Private repositories are deliberately not tracked, named, or described in this file; a private project enters the inventory when it becomes public, and leaves it when it stops being public. One Maintained repository left the inventory on 2026-09-13 on that basis. Twenty-one DIMER pipelines shipped between 2026-09-13 and 2026-09-15 and entered the inventory on 2026-09-18, opening two coverage areas the portfolio did not have before: document AI and OCR, and a detection family beyond the single zero-shot detector. Forty-four more were created between 2026-09-18 and 2026-10-11 and entered on 2026-11-02, opening four further areas: image and video generation, Earth observation and climate, motion and image matching, and the life and physical sciences. `pdf-signer-pwa` was archived in the same window and moved to Archived. `mlops-lite` was archived by 2026-11-07 and moved to Archived. `pdf-signer-pwa` was unarchived on 2026-11-15 and returned to Maintained, and `idol-3d-pipeline` entered the generation family the same day. This classification is intentionally conservative: it does not archive, delete, rename, or consolidate repositories automatically.
 
 ### Active
 
@@ -39,6 +39,7 @@ Audit date: **2026-11-07**. Scope: **public repositories only**. Private reposit
 | `market-study-template` | Reusable market-study scaffold |
 | `model-dependabot` | Dependency alerts for AI models: weights, packages, base models, datasets |
 | `office-reports` | Institutional reporting skills |
+| `pdf-signer-pwa` | Offline PKCS#12 PDF-signing PWA |
 | `presentation-builder` | General presentation-building skills |
 | `research-deck-builder` | Research/training deck workflow |
 | `rice-pest-detector` | Teaching demo: light-trap rice-pest counting; not field-validated |
@@ -62,7 +63,6 @@ Read-only; retained for provenance. Archived projects are not carried in the pro
 | `dost-progress-report` | Maintained | DOST report-generation workflow |
 | `inference-bench` | Maintained | MLPerf/TensorRT inference and GPU/CPU hardware benchmarking |
 | `mlops-lite` | Maintained | Single-machine, hybrid-GPU local MLOps platform |
-| `pdf-signer-pwa` | Maintained | Offline PKCS#12 PDF-signing PWA |
 | `research-writer` | Maintained | Citation-checked literature-review drafting |
 | `wsl-crew` | Maintained | WSL2 service-management utility |
 

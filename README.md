@@ -45,5 +45,6 @@ Repository lifecycle: **Active** → **Maintained** → **Experimental/Incubatin
 
 ### 🧰 Web apps & tools
 - **Agent infrastructure (`agent-*`)** — four independently usable layers for running AI agents under real constraints: [agent-relay](https://github.com/kurtvalcorza/agent-relay) hands work between agents through durable artifacts and a verifier gate; [agent-router](https://github.com/kurtvalcorza/agent-router) routes each subtask to the cheapest executor that can satisfy it, then escalates on failed verification; [agent-control](https://github.com/kurtvalcorza/agent-control) owns lifecycle, budgets, policy, and an append-only audit trail; [agent-toolchain](https://github.com/kurtvalcorza/agent-toolchain) installs and validates all of it across harnesses
+- **[pdf-signer-pwa](https://github.com/kurtvalcorza/pdf-signer-pwa)** — private, offline PKCS#12 PDF signing that never leaves your device
 
 ![](https://komarev.com/ghpvc/?username=kurtvalcorza&style=pixel)
